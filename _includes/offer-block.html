@@ -1,0 +1,15 @@
+<div class="row__column offer">
+  <div class="offer__image">
+    <a class="offer__image-link" id="image-link-{{ offer.class }}" href="{{ offer.link }}">
+      <img src="{{ site.baseurl }}/img/offers/{{ offer.class }}.jpg" width="100%" alt="{{ offer.title }}" />
+    </a>
+  </div>
+  <div class="offer__content">
+    <h2 class="offer__content-title"><a id="title-link-{{ offer.class }}" href="{{ offer.url }}">{{ offer.title }}</a></h2>
+    <h3 class="h4 offer__content-subtitle">{{ offer.location }}</h3>
+    <p>{{ offer.description }}</p>
+    <a id="button-link-{{ offer.class }}" href="{{ offer.link }}" class="btn btn__sm">
+      From <span class="offer__content-price">£{{ offer.price }}</span> {{ offer.price-description }}
+    </a>
+  </div>
+</div>

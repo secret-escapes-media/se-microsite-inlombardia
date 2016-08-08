@@ -1,0 +1,24 @@
+<div class="section--fixed-bg banner align-center parallax" data-parallax-speed="0.2"
+  {% if page.banner-img %} style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});"{% endif %}>
+
+  <div class="row row--padding banner__content">
+    <span class="h4">ESPERIENZA</span>
+    <h1 class="no-vm">{{ page.title | upcase }}</h1>
+    <span class="h4">IN LOMBARDIA</span>
+  </div>
+
+  <div class="microsite-nav__holder row row--padding">
+    <div class="microsite-nav">
+      <ul class="microsite-nav__list">
+        {% assign nav-order = site.pages | sort:"nav-order" %}{% for page in nav-order %}{% if page.title %}<li class="microsite-nav__item microsite-nav__item--{{ page.class }}"><a class="microsite-nav__link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+{% if page.intro %}
+<div class="row row--padding intro align-center">
+  {{ page.intro }}
+</div>
+{% endif %}

@@ -1,0 +1,49 @@
+// styles for the offer blocks that appear on the terrain pages
+
+
+.offer {
+  background-color: $white;
+  position: relative;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,0.1);
+  .row__column{
+    margin-top: 0;
+  }
+}
+
+.offer__image {
+  border-top: 4px solid $charcoal;
+  position: relative;
+  overflow: hidden;
+}
+
+.offer__image-link {}
+
+.offer__image img {
+  float: left;
+}
+
+.offer__content {
+  padding: ($margin / 2) $margin $margin;
+  p + p { margin-top: .2em; }
+}
+
+.offer__content-title {
+  margin-bottom: 0em;
+  font-size: 1.728em;
+}
+
+.offer__content-subtitle {
+  margin-bottom: .833em;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  line-height: 1.44;
+  text-transform: uppercase;
+}
+
+.offer__content-price {
+  font-weight: bold;
+}
+
+
+.offer .btn__sm { width: 100%; }

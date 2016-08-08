@@ -1,0 +1,123 @@
+// all custom styles for the site
+
+
+.site-footer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: darken( $white, 20 );
+  text-align: center;
+  font-size: .8em;
+  font-weight: 400;
+  background-color: $black;
+}
+
+
+// ---------- Background images ----------
+
+.section--fixed-bg {
+  position: relative;
+  background-color: $se-light-grey;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  p { font-weight: 400; }
+  .page-content &:first-child:before {
+    content: '';
+    display: block;
+    height: 3.375em;
+  }
+}
+
+.banner { background-image: url('../img/bg/banner-default.jpg'); overflow: hidden; }
+.banner__content {
+  padding-top: 8em; padding-bottom: 8em;
+  color: $white; text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+
+#inlombardia_banner { background-image: url('../img/bg/banner-inlombardia.jpg');}
+
+// ---------- custom blocks ----------
+
+.intro {
+  margin-top: -30px;
+  background-color: #fff;
+  padding: 30px 30px;
+  border: 1px solid rgba(0,0,0,0.1);
+  overflow: hidden;
+  position: relative; }
+
+
+
+.category {
+  @include transition;
+  border-top: 4px solid $charcoal; margin: 30px 0; position: relative; height: 240px;
+  background-size: 105%; background-position: center; background-repeat: no-repeat; }
+.category:hover { background-size: 100%; }
+
+.category__badge {
+  @include transition;
+  position: absolute; top: 50%; margin-top: -25px; left: 50%; margin-left: -125px; z-index: 1;
+  padding: 10px 15px; height: 50px; width: 250px;
+  text-align: center; font-family: $title-font-family; text-transform: uppercase; font-size: 1.2em; color: $white;
+  background-image: url('../img/bg/badge.png'); }
+.category:hover .category__badge { top: 0; text-decoration: none;}
+
+.category__copy {
+  @include transition;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 100px 30px 50px;
+  background-color: rgba(#ebebe2, 0.8);
+  opacity: 0; filter: alpha(opacity="0");
+  color: $charcoal;
+}
+.category:hover .category__copy {
+  opacity: 1; filter: alpha(opacity="100"); padding: 40px 30px;
+  @include bp( large ) {
+    padding: 60px 30px;
+  }
+}
+
+
+
+.sitelinks {
+  margin-top: 0 !important;
+  display: none;
+  @include bp( large ) {
+    display: block;
+  }
+}
+.sitelinks .sitelinks__link { display: block; }
+.sitelinks .sitelinks__link img { float: left; }
+
+.sitelinks .sitelinks__link {}
+
+
+
+// ---------- button ----------
+
+.btn {
+  @include transition;
+  display:inline-block;
+  padding: .5em 1.5em;
+  margin-right: 10px;
+  background-color: $red;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: $title-font-family;
+  text-transform: uppercase;
+  border-radius: 10em;
+  &:hover {
+    color: white;
+    background-color: $red-dark;
+    text-decoration: none;
+  }
+  * + & { margin-top: 1em; }
+}
+
+.btn__sm { padding: .2em 1.5em; border-radius: 3px; display: block; position: relative; overflow: hidden; }
+.btn__sm:after {
+  content: url('../img/icon/arrow.png'); background-color: rgba(0,0,0,0.1);
+  position: absolute; right: 0; top: 0; padding: 7px 10px 0px; }
