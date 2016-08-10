@@ -32,8 +32,10 @@
 .banner { background-image: url('../img/bg/banner-default.jpg'); overflow: hidden; }
 .banner__content {
   padding-top: 8em; padding-bottom: 8em;
-  color: $white; text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  color: $white;
 }
+.banner__content h1 { text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); }
+.banner__content span { text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6); }
 
 #inlombardia_banner { background-image: url('../img/bg/banner-inlombardia.jpg');}
 
@@ -51,21 +53,21 @@
 
 .category {
   @include transition;
-  border-top: 4px solid $charcoal; margin: 30px 0; position: relative; height: 240px;
+  border-top: 4px solid $charcoal; margin: 30px 0; position: relative; height: 240px; display:block;
   background-size: 105%; background-position: center; background-repeat: no-repeat; }
 .category:hover { background-size: 100%; }
 
 .category__badge {
   @include transition;
   position: absolute; top: 50%; margin-top: -25px; left: 50%; margin-left: -125px; z-index: 1;
-  padding: 10px 15px; height: 50px; width: 250px;
+  padding: 10px 15px; height: 50px; width: 250px; display:block;
   text-align: center; font-family: $title-font-family; text-transform: uppercase; font-size: 1.2em; color: $white;
   background-image: url('../img/bg/badge.png'); }
 .category:hover .category__badge { top: 0; text-decoration: none;}
 
 .category__copy {
   @include transition;
-  position: absolute;
+  position: absolute; display:block;
   height: 100%;
   width: 100%;
   padding: 100px 30px 50px;

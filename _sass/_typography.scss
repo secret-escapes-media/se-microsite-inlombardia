@@ -44,7 +44,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  line-height: 1.25;
+  line-height: 1;
   margin-bottom: .5em;
   letter-spacing: 0.05em;
   font-size: 2em;
@@ -58,6 +58,7 @@ h2, .h2 {
 
 h3, .h3 {
   margin-bottom: .5em;
+  letter-spacing: 0.05em;
   font-size: 1.728em;
   @include bp( medium ) {
     font-size: 2.074em;

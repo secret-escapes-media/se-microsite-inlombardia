@@ -1,7 +1,7 @@
 ---
 layout: default
 nav-order: 1
-title: Overview
+title: La Lombardia
 class: overview
 category:
 banner-img: banner-default.jpg
@@ -18,15 +18,15 @@ intro: >
 
     {% assign nav-order = site.pages | sort:"nav-order" %}
     {% for page in nav-order %}{% if page.title %}{% if page.class != 'overview' %}
-    <div class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});">
-      <a class="category__badge" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-      <div class="category__copy">
+    <a href="{{ site.baseurl }}{{ page.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});">
+      <span class="category__badge">{{ page.title }}</span>
+      <span class="category__copy">
         <p class="lead">
           {{ page.intro | strip_html | truncate: 250 }}
         </p>
-        <a href="{{ site.baseurl }}{{ page.url }}" class="btn">Read more...</a>
-      </div>
-    </div>
+        <span class="btn">Read more...</span>
+      </span>
+    </a>
     {% endif %}{% endif %}{% endfor %}
 
   </div>
