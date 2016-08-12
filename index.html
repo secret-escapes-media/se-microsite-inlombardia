@@ -14,8 +14,8 @@ intro: >
 
 
 <section>
-  <div class="row row--padding">
 
+  <div class="row row--padding">
     {% assign nav-order = site.pages | sort:"nav-order" %}
     {% for page in nav-order %}{% if page.title %}{% if page.class != 'overview' %}
     <a href="{{ site.baseurl }}{{ page.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});">
@@ -24,13 +24,27 @@ intro: >
         <p class="lead">
           {{ page.intro | strip_html | truncate: 250 }}
         </p>
-        <span class="btn">Read more...</span>
+        <span class="btn">CONTINUA A LEGGERE...</span>
       </span>
     </a>
     {% endif %}{% endif %}{% endfor %}
-
   </div>
+
+  <div class="row row--padding align-center">
+    <h4>Further information on InLombardia</h4>
+  </div>
+
+  <div class="row row--padding row--columns-6-6 sitelinks">
+    <a href="#" class="sitelinks__link row__column">
+      <img src="{{ site.baseurl }}/img/content/site_link-family.jpg" width="100%" />
+    </a>
+    <a href="#" class="sitelinks__link row__column">
+      <img src="{{ site.baseurl }}/img/content/site_link-wellness.jpg" width="100%" />
+    </a>
+  </div>
+
 </section>
+
 
 
 {% include inlombardia-banner.html %}

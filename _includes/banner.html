@@ -2,14 +2,17 @@
   {% if page.banner-img %} style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});"{% endif %}>
 
   <div class="row row--padding banner__content">
-    {% if page.url == "/"" %}
+    {% if page.url == "/" %}
       <span class="h3">SCOPRI</span>
+    {% elsif page.class == 'offers' %}
     {% else %}
       <span class="h4">ESPERIENZA</span>
     {% endif %}
     <h1 class="no-vm">{{ page.title | upcase }}</h1>
     {% if page.url != "/"" %}
-      <span class="h4">IN LOMBARDIA</span>
+      {% if page.class != 'offers' %}
+        <span class="h4">IN LOMBARDIA</span>
+      {% endif %}
     {% endif %}
   </div>
 

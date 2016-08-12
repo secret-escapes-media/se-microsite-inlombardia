@@ -53,10 +53,15 @@
 
 .category {
   @include transition;
-  border-top: 4px solid $charcoal; margin: 30px 0; position: relative; height: 240px; display:block;
-  background-size: 105%; background-position: center; background-repeat: no-repeat; }
+  border-top: 4px solid $charcoal; margin: 30px 0; position: relative; height: 320px; display:block;
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+  @include bp( large ) {
+     height: 240px; background-size: 105%;
+  }
+}
+@include bp( large ) {
 .category:hover { background-size: 100%; }
-
+}
 .category__badge {
   @include transition;
   position: absolute; top: 50%; margin-top: -25px; left: 50%; margin-left: -125px; z-index: 1;
@@ -84,13 +89,7 @@
 
 
 
-.sitelinks {
-  margin-top: 0 !important;
-  display: none;
-  @include bp( large ) {
-    display: block;
-  }
-}
+.sitelinks {}
 .sitelinks .sitelinks__link { display: block; }
 .sitelinks .sitelinks__link img { float: left; }
 
