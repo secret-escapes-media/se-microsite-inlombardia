@@ -94,6 +94,7 @@
 }
 
 
+// ---------- External site link sections ----------
 
 .sitelinks {}
 .sitelinks .sitelinks__link { display: block; position: relative; }
@@ -107,8 +108,9 @@
   color: white;
   text-transform: uppercase;
   text-shadow: 0 0 10px #000000;
-  & .btn { position: absolute; bottom: 20px; }
+  .btn { position: absolute; bottom: 20px; }
   &:hover { text-decoration: none; }
+  h4 { font-size: 1.5em;}
 }
 
 
@@ -167,6 +169,6 @@ body.language_page .page-content {
   .language--icon {
     margin: 0 10px;}
   .language--icon:hover { text-decoration: none; }
-  
+
 
 }
