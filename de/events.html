@@ -1,0 +1,49 @@
+---
+layout: default_de
+language: de
+nav-order: 7
+title: Events
+class: events
+category: events
+banner-img: banner-events.jpg
+banner-pre-title:
+banner-post-title: Es gibt immer was zu tun
+intro: >
+  <p>Der Event-Kalender der Lombardei ist immer gut gefüllt, ob in Mailand oder in der Provinz, ob Sport, Theater oder Feste: Es gibt einiges zu entdecken.</p>
+---
+
+{% assign offers = site.data.offers_de %}
+
+
+<section>
+
+
+  {% include offer-page-content.html %}
+
+
+  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.de/events-lombardei/formel-1-grosser-preis-von-italien-monza" class="sitelinks__link--content row__column">
+        <h4>Formel 1 grosser preis von italien monza</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/formula-1-italian-grand-prix-monza.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.de/events-lombardei/mff-milano-film-festival" class="sitelinks__link--content row__column">
+        <h4>MFF Milano film festival</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/milan-film-festival.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.de/events-lombardei/cremona-mondomusica" class="sitelinks__link--content row__column">
+        <h4>Cremona mondomusica</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/cremona-mondomusica.jpg" width="100%" />
+    </div>
+
+  </div>
+
+</section>

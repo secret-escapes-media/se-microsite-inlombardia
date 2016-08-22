@@ -1,0 +1,50 @@
+---
+layout: default_it
+language: it
+nav-order: 7
+title: Eventi
+class: events
+category: events
+banner-img: banner-events.jpg
+banner-pre-title:
+banner-post-title: In Lombardia
+intro: >
+  <p class="lead">Il calendario degli eventi in Lombardia è sempre denso di mostre, fiere e manifestazioni di rilievo locale e internazionale.</p>
+  <p>Alcuni esempi? La recente installazione The Floating Piers di Christo sul Lago d’Iseo, l’imperdibile Salone del Mobile per amanti ed esperti del design, la Milano Fashion Week per stilisti e patiti della moda, il GP di Monza per gli appassionati di sport, decine di mostre ed eventi enogastronomici e non solo. Con così tanto da fare e da vedere, avrai soltanto l’imbarazzo della scelta!</p>
+---
+
+{% assign offers = site.data.offers_it %}
+
+
+<section>
+
+
+  {% include offer-page-content.html %}
+
+
+  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.it/eventi-in-lombardia/da-giotto-a-de-chirico" class="sitelinks__link--content row__column">
+        <h4>Da Giotto a De Chirico</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/from-giotto-to-de-chirico.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.it/eventi-in-lombardia/joan-mir%C3%B2-la-forza-della-materia" class="sitelinks__link--content row__column">
+        <h4>Joan Mirò</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/joan-miro.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.it/eventi-in-lombardia/sguardo-concorde" class="sitelinks__link--content row__column">
+        <h4>Sguardo ConCorde</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/sguardo-concorde.jpg" width="100%" />
+    </div>
+
+  </div>
+
+</section>

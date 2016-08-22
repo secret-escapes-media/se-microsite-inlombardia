@@ -1,0 +1,37 @@
+---
+layout: default_de
+language: de
+nav-order: 1
+title: Die Lombardei
+class: overview
+category:
+banner-img: banner-default.jpg
+banner-pre-title:
+banner-post-title: Alles, was das Herz begehrt
+intro: >
+  <p class="lead">Kulinarik, Kunst & Kultur, faszinierende Landschaften - die Lombardei ist so nah und so schön. Machen Sie sich auf eine Entdeckungsreise in den wunderschönen Norden Italiens - viel Freude!</p>
+---
+
+
+<section>
+
+  <div class="row row--padding">
+    {% assign nav-order = site.pages | sort:"nav-order" %}
+    {% for item in nav-order %}
+    {% if item.language == page.language %}
+    {% if item.class != 'overview' %}
+    <a href="{{ site.baseurl }}{{ item.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{item.banner-img}});">
+      <span class="category__badge">{{ item.title }}</span>
+      <span class="category__copy">
+        <p class="lead">
+          {{ item.intro | strip_html | truncate: 250 }}
+        </p>
+        <span class="btn">READ MORE...</span>
+      </span>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </div>
+
+</section>

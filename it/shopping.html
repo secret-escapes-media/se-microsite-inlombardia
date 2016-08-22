@@ -1,0 +1,50 @@
+---
+layout: default_it
+language: it
+nav-order: 4
+title: Shopping
+class: shopping
+category: shopping
+banner-img: banner-shopping.jpg
+banner-pre-title:
+banner-post-title: In Lombardia
+intro: >
+  <p>Voglia di shopping sfrenato? Anche in questo caso, la Lombardia è la risposta giusta.</p>
+  <p>A Milano, capitale assoluta della moda e culla delle migliori firme del Made in Italy potrai trovare tutto quello che cerchi. Dagli atelier e dalle botteghe artigianali di Brera e Tortona, alle glitteratissime boutique di Galleria Vittorio Emanuele II, di Via Torino e del Quadrilatero della Moda.</p>
+---
+
+{% assign offers = site.data.offers_it %}
+
+
+<section>
+
+
+  {% include offer-page-content.html %}
+
+
+  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/shopping-e-esperienze-lombardia/mantova-outlet-village" class="sitelinks__link--content row__column">
+        <h4>Mantova Outlet Village</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/fashion-district-mantova-outlet.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/shopping-e-esperienze-lombardia/strike-chic-outlet-cremona" class="sitelinks__link--content row__column">
+        <h4>Strike chic outlet cremona</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/strike-chic-outlet-cremona.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/shopping-e-esperienze-lombardia/milano-al-top" class="sitelinks__link--content row__column">
+        <h4>Milano al Top</h4>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/milan-from-the-top.jpg" width="100%" />
+    </div>
+
+  </div>
+
+</section>

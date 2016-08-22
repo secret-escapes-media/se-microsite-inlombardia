@@ -1,30 +1,35 @@
 <div class="section--fixed-bg banner align-center parallax" data-parallax-speed="0.2"
   {% if page.banner-img %} style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});"{% endif %}>
 
-  <div class="row row--padding banner__content">
-    {% if page.url == "/" %}
-      <span class="h3">SCOPRI</span>
-    {% elsif page.class == 'offers' %}
-    {% else %}
-      <span class="h4">ESPERIENZA</span>
-    {% endif %}
-    <h1 class="no-vm">{{ page.title | upcase }}</h1>
-    {% if page.url != "/"" %}
-      {% if page.class != 'offers' %}
-        <span class="h4">IN LOMBARDIA</span>
-      {% endif %}
-    {% endif %}
-  </div>
+
+
+<div class="row row--padding banner__content">
+
+  <span class="h4">{{ page.banner-pre-title | upcase }}</span>
+  <h1 class="no-vm">{{ page.title | upcase }}</h1>
+  <span class="h4">{{ page.banner-post-title | upcase }}</span>
+
+</div>
+
+
 
   <div class="microsite-nav__holder row row--padding">
     <div class="microsite-nav">
       <ul class="microsite-nav__list">
-        {% assign nav-order = site.pages | sort:"nav-order" %}{% for page in nav-order %}{% if page.title %}<li class="microsite-nav__item microsite-nav__item--{{ page.class }}"><a class="microsite-nav__link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
+        {% assign nav-order = site.pages | sort:"nav-order" %}
+        {% for item in nav-order %}{% if item.language == page.language %}
+        <li class="microsite-nav__item microsite-nav__item--{{ item.class }}">
+          <a class="microsite-nav__link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>
 
 </div>
+
+
 
 {% if page.intro %}
 <div class="row row--padding intro align-center">

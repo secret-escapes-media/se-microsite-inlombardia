@@ -1,0 +1,63 @@
+---
+layout: default_it
+language: it
+nav-order: 1
+title: La Lombardia
+class: overview
+category:
+banner-img: banner-default.jpg
+banner-pre-title: Scopri
+banner-post-title:
+intro: >
+  <p>Tra scenari naturali d’incomparabile bellezza, tradizioni enogastronomiche da far invidia al mondo intero e un calendario denso di mostre, eventi e fiere di rilievo internazionale, non stupisce che la Lombardia faccia innamorare a prima vista tutti quelli che vi mettono piede.</p>
+  <p>Qui si trovano alcune delle più incredibili meraviglie del mondo: ben dieci siti e patrimoni UNESCO, innumerevoli perle di arte, cultura ed architettura e panorami mozzafiato. La Lombardia è la meta ideale per chi è alla ricerca di una vacanza indimenticabile: lasciati sedurre da questa terra dalle tante anime e sfaccettature, ti promettiamo che non te ne pentirai. </p>
+  <p>Pronto a partire?</p>
+---
+
+
+<section>
+
+  <div class="row row--padding">
+    {% assign nav-order = site.pages | sort:"nav-order" %}
+    {% for item in nav-order %}
+    {% if item.language == page.language %}
+    {% if item.class != 'overview' %}
+    <a href="{{ site.baseurl }}{{ item.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{item.banner-img}});">
+      <span class="category__badge">{{ item.title }}</span>
+      <span class="category__copy">
+        <p class="lead">
+          {{ item.intro | strip_html | truncate: 250 }}
+        </p>
+        <span class="btn">CONTINUA A LEGGERE...</span>
+      </span>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="row row--padding align-center">
+    <h4>Ulteriori informazioni su inLombardia</h4>
+  </div>
+
+  <div class="row row--padding row--columns-6-6 sitelinks">
+
+    <div class="sitelinks__link row__column">
+      <a href="#" class="sitelinks__link--content">
+        <h4>VACANZA IN  FAMIGLIA</h4>
+        <span class="btn">CONTINUA A LEGGERE</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/site_link-family.jpg" width="100%" />
+    </div>
+
+    <div class="sitelinks__link row__column">
+      <a href="#" class="sitelinks__link--content">
+        <h4>BENESSERE</h4>
+        <span class="btn">CONTINUA A LEGGERE</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/site_link-wellness.jpg" width="100%" />
+    </div>
+
+  </div>
+
+</section>

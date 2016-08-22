@@ -2,7 +2,7 @@
 title: In Lombardia
 description: >
   InLombardia site description
-baseurl: "/inlombardia" # the subpath of your site, e.g. /blog/
+baseurl: "/inlombardia"
 url: "https://www.secretescapes.com" # the base hostname & protocol for your site
 
 # Build settings

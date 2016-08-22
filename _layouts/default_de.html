@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body id="top" class="{% if page.class %}{{ page.class }}{% endif %}" {% if page.class %}data-current-page="{{ page.class }}"{% endif %}>
+
+
+    {% include tracking.html %}
+
+
+    {% include header_de.html %}
+
+
+    <div class="page-content">
+
+      {% include banner.html %}
+
+      {{ content }}
+
+      {% include inlombardia-banner_de.html %}
+
+    </div>
+
+
+    {% include footer_de.html %}
+
+
+  </body>
+
+</html>

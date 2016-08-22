@@ -1,39 +1,12 @@
-{% include banner.html %}
+<div class="row row--padding row--columns-6-6-gutters">
 
+  <!-- filtered loop for offer categories -->
+  {% for offer in offers %}{% if offer.category == page.category %}
+      {% include offer-block.html %}
+  {% endif %}{% endfor %}
+  <!-- separate loop to get all offers on offers.html -->
+  {% if page.class == 'offers' %}{% for offer in offers %}
+    {% include offer-block.html %}
+  {% endfor %}{% endif %}
 
-<section>
-
-
-  <div class="row row--padding row--columns-6-6-gutters">
-
-    <!-- filtered loop for offer categories -->
-    {% for offer in offers %}
-      {% if offer.category == page.category %}
-        {% include offer-block.html %}
-      {% endif %}
-    {% endfor %}
-
-    <!-- separate loop to get all offers on offers.html -->
-    {% if page.class == 'offers' %}
-      {% for offer in offers %}
-        {% include offer-block.html %}
-      {% endfor %}
-    {% endif %}
-
-  </div>
-
-
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
-    <div class="row__column">
-      <div class="row__column-6-6">
-        <a href="#" class="sitelinks__link row__column"><img src="{{ site.baseurl }}/img/content/site_link1.jpg" width="100%" /></a>
-        <a href="#" class="sitelinks__link row__column"><img src="{{ site.baseurl }}/img/content/site_link2.jpg" width="100%" /></a>
-        <a href="#" class="sitelinks__link row__column"><img src="{{ site.baseurl }}/img/content/site_link3.jpg" width="100%" /></a>
-        <a href="#" class="sitelinks__link row__column"><img src="{{ site.baseurl }}/img/content/site_link4.jpg" width="100%" /></a>
-      </div>
-    </div>
-    <a href="#" class="sitelinks__link row__column"><img src="{{ site.baseurl }}/img/content/site_link-lrg.jpg" width="100%" /></a>
-  </div>
-
-
-</section>
+</div>

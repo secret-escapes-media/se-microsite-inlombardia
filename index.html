@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: language
 nav-order: 1
 title: La Lombardia
-class: overview
+class: language
 category:
 banner-img: banner-default.jpg
 intro: >
@@ -10,41 +10,24 @@ intro: >
 ---
 
 
-{% include banner.html %}
+<div class="banner--languages banner align-center">
 
+  <div class="row row--padding banner__content">
+    <h2>Please choose your language below:</h2>
 
-<section>
-
-  <div class="row row--padding">
-    {% assign nav-order = site.pages | sort:"nav-order" %}
-    {% for page in nav-order %}{% if page.title %}{% if page.class != 'overview' %}
-    <a href="{{ site.baseurl }}{{ page.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});">
-      <span class="category__badge">{{ page.title }}</span>
-      <span class="category__copy">
-        <p class="lead">
-          {{ page.intro | strip_html | truncate: 250 }}
-        </p>
-        <span class="btn">CONTINUA A LEGGERE...</span>
-      </span>
+    <a class="language--icon" href="{{ site.baseurl }}/en">
+      <img src="{{ site.baseurl }}/img/content/lang-uk.png" alt="English" width="60" />
     </a>
-    {% endif %}{% endif %}{% endfor %}
+
+    <a class="language--icon" href="{{ site.baseurl }}/it">
+      <img src="{{ site.baseurl }}/img/content/lang-italy.png" alt="Italy" width="60" />
+    </a>
+
+    <a class="language--icon" href="{{ site.baseurl }}/de">
+      <img src="{{ site.baseurl }}/img/content/lang-germany.png" alt="Germany" width="60" />
+    </a>
+
   </div>
 
-  <div class="row row--padding align-center">
-    <h4>Further information on InLombardia</h4>
-  </div>
 
-  <div class="row row--padding row--columns-6-6 sitelinks">
-    <a href="#" class="sitelinks__link row__column">
-      <img src="{{ site.baseurl }}/img/content/site_link-family.jpg" width="100%" />
-    </a>
-    <a href="#" class="sitelinks__link row__column">
-      <img src="{{ site.baseurl }}/img/content/site_link-wellness.jpg" width="100%" />
-    </a>
-  </div>
-
-</section>
-
-
-
-{% include inlombardia-banner.html %}
+</div>
