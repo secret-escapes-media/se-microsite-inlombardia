@@ -16,12 +16,13 @@
   <div class="microsite-nav__holder row row--padding">
     <div class="microsite-nav">
       <ul class="microsite-nav__list">
-        {% assign nav-order = site.pages | sort:"nav-order" %}
-        {% for item in nav-order %}{% if item.language == page.language %}
+        {% assign nav-order = site.pages | sort:"page-order" %}
+        {% for item in nav-order %}
+        {% if item.language == page.language %}{% if item.nav %}
         <li class="microsite-nav__item microsite-nav__item--{{ item.class }}">
           <a class="microsite-nav__link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
-        {% endif %}
+        {% endif %}{% endif %}
         {% endfor %}
       </ul>
     </div>

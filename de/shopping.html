@@ -1,7 +1,8 @@
 ---
 layout: default_de
 language: de
-nav-order: 4
+page-order: 4
+nav: true
 title: Shopping
 class: shopping
 category: shopping
@@ -10,41 +11,64 @@ banner-pre-title:
 banner-post-title: faszinierende Verlockungen
 intro: >
   <p>Mailand, das Mode-Mekka, sollte natürlich auf Ihrer Liste stehen. Hier finden Sie alles, was mit gutem Geschmack verbunden ist, und beim Flanieren in kleineren Gassen auch außergewöhnliche und vor allem sehr tragbare Mode: Flanieren Sie entlang der Galleria Vittorio Emanuele II., via Torino oder durch die Straßen des so genannten Mode Vierecks. In den bunten Stadtvierteln Brera und Tortona können Sie Ateliers und Werkstätte besuchen, wo Sie spannende Unikate erwerben können.</p>
-  <a class="btn" href="#">Read more</a>
 ---
 
-{% assign offers = site.data.offers_de %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/de/secret-escapes/shopping">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Mehr erfahren</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/i-love-shopping-in-mailand" class="sitelinks__link--content row__column">
+          <h4>I love shopping in Mailand</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/i-love-shopping-in-milan.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/strike-chic-outlet-in-cremona" class="sitelinks__link--content row__column">
+          <h4>Strike chic outlet in cremona</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/strike-chic-outlet-cremona.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/fashion-district-mantova-outlet" class="sitelinks__link--content row__column">
+          <h4>Fashion district mantova outlet</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/fashion-district-mantova-outlet.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/franciacorta-outlet-village" class="sitelinks__link--content row__column">
+          <h4>Franciacorta Outlet Village</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/franciacorta-outlet-village.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/fashion-district-mantova-outlet" class="sitelinks__link--content row__column">
-        <h4>Fashion district mantova outlet</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/fashion-district-mantova-outlet.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/strike-chic-outlet-in-cremona" class="sitelinks__link--content row__column">
-        <h4>Strike chic outlet cremona</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/strike-chic-outlet-cremona.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/i-love-shopping-in-mailand" class="sitelinks__link--content row__column">
-        <h4>Ich liebe Shopping in Mailand</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/i-love-shopping-in-milan.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_de %}
+  {% include offer-page-content.html %}
 </section>

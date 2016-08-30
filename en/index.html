@@ -1,7 +1,8 @@
 ---
 layout: default_en
 language: en
-nav-order: 1
+page-order: 1
+nav: true
 title: Lombardy
 class: overview
 category:
@@ -9,15 +10,15 @@ banner-img: banner-default.jpg
 banner-pre-title: Discover
 banner-post-title:
 intro: >
-  <p class="lead">Discover the riches of Italy in one beautiful region.</p><p>Italy’s riches are well-documented (and Instagrammed), but there’s no region that shows them off like Lombardy. Food, culture, nature - everything on offer is turned up to the max. Milan and Lake Como are well worth your time and attention but you’re definitely going to want to hunt for your own gems, those incredible surprises that you’ll remember forever. Head into the hills to discover the natural beauty or explore the traditional towns for beautiful crafts to take home with you. And, of course, be sure to sample the local delicacies at every opportunity. Wherever your trip takes you, Lombardy will wow you around every corner.</p>
+  <p>Discover the riches of Italy in one beautiful region.</p><p>Italy’s riches are well-documented (and Instagrammed), but there’s no region that shows them off like Lombardy. Food, culture, nature - everything on offer is turned up to the max. Milan and Lake Como are well worth your time and attention but you’re definitely going to want to hunt for your own gems, those incredible surprises that you’ll remember forever. Head into the hills to discover the natural beauty or explore the traditional towns for beautiful crafts to take home with you. And, of course, be sure to sample the local delicacies at every opportunity. Wherever your trip takes you, Lombardy will wow you around every corner.</p>
 ---
 
 
 <section>
 
   <div class="row row--padding">
-    {% assign nav-order = site.pages | sort:"nav-order" %}
-    {% for item in nav-order %}
+    {% assign page-order = site.pages | sort:"page-order" %}
+    {% for item in page-order %}
     {% if item.language == page.language %}
     {% if item.class != 'overview' %}
     <a href="{{ site.baseurl }}{{ item.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{item.banner-img}});">

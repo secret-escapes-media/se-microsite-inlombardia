@@ -1,7 +1,8 @@
 ---
 layout: default_en
 language: en
-nav-order: 3
+page-order: 3
+nav: true
 title: Food and Drink
 class: food-and-drink
 category: food-and-drink
@@ -9,43 +10,59 @@ banner-img: banner-food.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
 intro: >
-  <p class="lead">Hungry in Lombardy? Not possible. </p>
+  <p>Hungry in Lombardy? Not possible. </p>
   <p>Tempting as it is to indulge in as much pizza and pasta as you can (we are in Italy, after all), rice dishes are very much the order of the day in Lombardy. Risotto is served in all manner of varieties, especially the rich Risotto alla Milanese, which is flavoured with rich saffron. Local delicacies include some famous dishes such as ossobuco and everyone’s favourite festive Italian treat, panettone. The chefs in Lombardy might be known for the classics but they still have a few surprises - there are six Michelin-starred restaurants in the region. And did you know that the most famous caviar in the world actually comes from Brescia? It goes very nicely with the sparkling wine that the region is famed for producing (Read: vineyards and wineries!)</p>
-  <a class="btn" href="#">Read more</a>
 ---
 
-{% assign offers = site.data.offers_en %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/en/secret-escapes/food">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Find out more</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/food-and-wine-tourism-lombardy/wine-tastings-and-wineries-in-casteggio" class="sitelinks__link--content row__column">
+          <h4>Wine tastings and wineries in casteggio</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/wine-tastings-and-wineries-in-casteggio.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/food-and-wine-tourism-lombardy/the-best-restaurants-in-lake-como" class="sitelinks__link--content row__column">
+          <h4>The Best Restaurants in Lake Como</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/the-best-restaurants-in-lake-como.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/food-and-wine-tourism-lombardy/mantua-local-products-guide">
+          <h4>Mantua Local Products Guide</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/mantua-local-products-guide.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/food-and-wine-tourism-lombardy/the-best-restaurants-in-lake-como" class="sitelinks__link--content row__column">
-        <h4>The Best Restaurants in Lake Como</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/the-best-restaurants-in-lake-como.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/food-and-wine-tourism-lombardy/wine-tastings-and-wineries-in-casteggio" class="sitelinks__link--content row__column">
-        <h4>Wine tastings and wineries in casteggio</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/wine-tastings-and-wineries-in-casteggio.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/food-and-wine-tourism-lombardy/when-food-meets-fashion" class="sitelinks__link--content row__column">
-        <h4>When food meets fashion</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/when-food-meets-fashion.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_en %}
+  {% include offer-page-content.html %}
 </section>

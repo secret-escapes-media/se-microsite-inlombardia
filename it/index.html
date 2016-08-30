@@ -1,7 +1,8 @@
 ---
 layout: default_it
 language: it
-nav-order: 1
+page-order: 1
+nav: true
 title: La Lombardia
 class: overview
 category:
@@ -18,8 +19,8 @@ intro: >
 <section>
 
   <div class="row row--padding">
-    {% assign nav-order = site.pages | sort:"nav-order" %}
-    {% for item in nav-order %}
+    {% assign page-order = site.pages | sort:"page-order" %}
+    {% for item in page-order %}
     {% if item.language == page.language %}
     {% if item.class != 'overview' %}
     <a href="{{ site.baseurl }}{{ item.url }}" class="category align-center" style="background-image: url({{ site.baseurl }}/img/bg/{{item.banner-img}});">
@@ -34,30 +35,6 @@ intro: >
     {% endif %}
     {% endif %}
     {% endfor %}
-  </div>
-
-  <div class="row row--padding align-center">
-    <h4>Ulteriori informazioni su inLombardia</h4>
-  </div>
-
-  <div class="row row--padding row--columns-6-6 sitelinks">
-
-    <div class="sitelinks__link row__column">
-      <a href="#" class="sitelinks__link--content">
-        <h4>VACANZA IN  FAMIGLIA</h4>
-        <span class="btn">CONTINUA A LEGGERE</span>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/site_link-family.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a href="#" class="sitelinks__link--content">
-        <h4>BENESSERE</h4>
-        <span class="btn">CONTINUA A LEGGERE</span>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/site_link-wellness.jpg" width="100%" />
-    </div>
-
   </div>
 
 </section>

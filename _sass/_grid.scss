@@ -16,11 +16,12 @@ $margin: 2em;
 // -------- grid sections --------
 
 section {
-  padding-top: 2.5315em;
-  padding-bottom: 2.5315em;
+  padding-top: 2.488em;
+  padding-bottom: 2.488em;
+  &.np { padding-top: 0; padding-bottom: 0; }
   @include bp( large ) {
-    padding-top: 2.5315em;
-    padding-bottom: 2.5315em;
+    padding-top: 3.583em;
+    padding-bottom: 3.583em;
   }
 }
 
@@ -97,6 +98,7 @@ section {
 
   // three columns without gutter
   .row--columns-4-4-4 .row__column { @include gallery(4); }
+  .row--columns-3-3-3-3 .row__column { @include gallery(3); }
 
   // three columns with gutter
   .row--columns-4-4-4-gutters .row__column {

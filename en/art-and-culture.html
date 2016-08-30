@@ -1,7 +1,8 @@
 ---
 layout: default_en
 language: en
-nav-order: 2
+page-order: 2
+nav: true
 title: Arts and Culture
 class: art-and-culture
 category: art-and-culture
@@ -9,43 +10,66 @@ banner-img: banner-art.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
 intro: >
-  <p class="lead">Explore a world of creativity and inspiration.</p>
+  <p>Explore a world of creativity and inspiration.</p>
   <p>Italy is synonymous with world-class art. It’s a cultural melting pot and Lombardy is the ideal region to soak it all in. Whether you’re after design or history, or a little of both, there’s culture to be found all over Lombardy. Don’t just take our word for it - Mantua is Italy’s Capital of Culture and the entire city has been declared as one of 10 UNESCO World Heritage Sites in the region. Want to see it all? Start with Varese’s sacred mountains and rock carvings, then take a trip to the historic settlement of Crespi d'Adda before staring in awe at one of the most famous paintings in the world: Da Vinci’s Last Supper, which hangs in Milan.</p>
-  <a class="btn" href="#">Read more</a>
 ---
 
-{% assign offers = site.data.offers_en %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/en/secret-escapes/art">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Find out more</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/monuments-in-lombardy">
+          <h4>Monuments in Lombardy</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/monuments-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/churches-in-lombardy">
+          <h4>Churches in Lombardy</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/churches-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/museums-in-lombardy">
+          <h4>Museums in Lombardy</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/museums-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/mantua-culture-capital-2016">
+          <h4>Mantua Culture Capital 2016</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/mantua-culture-capital-2016.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/monuments-in-lombardy" class="sitelinks__link--content row__column">
-        <h4>Monuments in Lombardy</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/monuments-in-lombardy.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/mantua-culture-capital-2016" class="sitelinks__link--content row__column">
-        <h4>Mantua Culture Capital 2016</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/mantua-culture-capital-2016.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/cultural-tourism-lombardy/churches-in-lombardy" class="sitelinks__link--content row__column">
-        <h4>Churches in Lombardy</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/churches-in-lombardy.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_en %}
+  {% include offer-page-content.html %}
 </section>

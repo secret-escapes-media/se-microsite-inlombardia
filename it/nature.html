@@ -1,7 +1,8 @@
 ---
 layout: default_it
 language: it
-nav-order: 5
+page-order: 5
+nav: true
 title: Natura
 class: nature
 category: nature
@@ -11,41 +12,64 @@ banner-post-title: In Lombardia
 intro: >
   <p class="lead">Se sei un amante della natura e adori rilassarti e fare sport all’aria aperta, la Lombardia è la meta perfetta anche per te.</p>
   <p>Ben 25 parchi naturali (hai sentito bene, 25!) oltre a giardini, oasi, laghi e montagne. Ideale per chi ama il verde, ma anche per gli sportivi di ogni genere: potrai dilettarti in sport acquatici, trekking ed escursioni, lunghe passeggiate nel verde, cicloturismo, sport invernali e molto altro.</p>
-  <a class="btn" href="#">Read more</a>
 ---
 
-{% assign offers = site.data.offers_it %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/it/secret-escapes/natura">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Continua a leggere</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/parchi-naturali-in-lombardia">
+          <h4>Parchi Naturali in Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/natural-parks-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-sportivo-lombardia">
+          <h4>Turismo sportivo Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/sports-tourism-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/vacanze-natura-lombardia/itinerario-attraverso-la-valcuvia">
+          <h4>Itinerario attraverso la Valcuvia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/lake-ceresio-to-lake-maggiore.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/parchi-naturali-in-lombardia/parco-nazionale-dello-stelvio">
+          <h4>Parco Nazionale dello Stelvio</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/stelvio-park.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/vacanze-natura-lombardia/cosa-fare-in-franciacorta" class="sitelinks__link--content row__column">
-        <h4>Cosa fare in Franciacorta</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/what-to-do-in-franciacorta.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/vacanze-natura-lombardia/itinerario-attraverso-la-valcuvia" class="sitelinks__link--content row__column">
-        <h4>Itinerario attraverso la Valcuvia</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/lake-ceresio-to-lake-maggiore.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/vacanze-natura-lombardia/sculture-naturali-tra-le-piramidi" class="sitelinks__link--content row__column">
-        <h4>Sculture naturali tra le Piramidi</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/natural-sculptures-among-pyramids.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_it %}
+  {% include offer-page-content.html %}
 </section>

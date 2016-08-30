@@ -1,7 +1,8 @@
 ---
 layout: default_it
 language: it
-nav-order: 7
+page-order: 7
+nav: true
 title: Eventi
 class: events
 category: events
@@ -9,43 +10,66 @@ banner-img: banner-events.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
 intro: >
-  <p class="lead">Il calendario degli eventi in Lombardia è sempre denso di mostre, fiere e manifestazioni di rilievo locale e internazionale.</p>
+  <p>Il calendario degli eventi in Lombardia è sempre denso di mostre, fiere e manifestazioni di rilievo locale e internazionale.</p>
   <p>Alcuni esempi? La recente installazione The Floating Piers di Christo sul Lago d’Iseo, l’imperdibile Salone del Mobile per amanti ed esperti del design, la Milano Fashion Week per stilisti e patiti della moda, il GP di Monza per gli appassionati di sport, decine di mostre ed eventi enogastronomici e non solo. Con così tanto da fare e da vedere, avrai soltanto l’imbarazzo della scelta!</p>
-  <a class="btn" href="#">Read more</a>
 ---
 
-{% assign offers = site.data.offers_it %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/it/secret-escapes/eventi">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Continua a leggere</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/da-giotto-a-de-chirico">
+          <h4>Da Giotto a De Chirico</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/from-giotto-to-de-chirico.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/escher">
+          <h4>Escher</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/escher.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/leonardo3-il-mondo-di-leonardo">
+          <h4>Il Mondo di Leonardo</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/the-world-of-leonardo.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/cremona-mondomusica">
+          <h4>Cremona Mondomusica</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/cremona-mondomusica.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.it/eventi-in-lombardia/da-giotto-a-de-chirico" class="sitelinks__link--content row__column">
-        <h4>Da Giotto a De Chirico</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/from-giotto-to-de-chirico.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.it/eventi-in-lombardia/leonardo3-il-mondo-di-leonardo" class="sitelinks__link--content row__column">
-        <h4>Il Mondo di Leonardo</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/the-world-of-leonardo.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.it/eventi-in-lombardia/sguardo-concorde" class="sitelinks__link--content row__column">
-        <h4>Sguardo ConCorde</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/sguardo-concorde.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_it %}
+  {% include offer-page-content.html %}
 </section>

@@ -1,7 +1,8 @@
 ---
 layout: default_en
 language: en
-nav-order: 6
+page-order: 6
+nav: true
 title: Lakes
 class: lakes
 category: lakes
@@ -9,43 +10,59 @@ banner-img: banner-lakes.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
 intro: >
-  <p class="lead">Think there’s only Lake Como to keep you entertained? Think again. </p>
+  <p>Think there’s only Lake Como to keep you entertained? Think again. </p>
   <p>George Clooney and his pals definitely helped to put Lake Como on the map. It’s every A-lister’s favourite Italian destination and with good reason - its lush landscape and Alpine backdrop is breathtaking. But Lombardy’s lakeside resorts have been giving the mediterranean beach holiday a run for its money for decades, thanks to the serene beauty of Lake Garda and Maggiore’s penchant for water sports. Lake Iseo is also getting in on the action after hosting world renowned artist Christo’s art installation The Floating Piers and its extra special gem Montisola - Europe’s largest lake island.</p>
-  <a class="btn" href="#">Read more</a>
 ---
 
-{% assign offers = site.data.offers_en %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/en/secret-escapes/lakes">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Find out more</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/lake-vacation-lombardy">
+          <h4>Lake Vacation Lombardy</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/lake-vacation-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/visiting-lombardy/lake-vacation-lombardy/itineraries-with-the-three-queens">
+          <h4>Trip to Menaggio, Bellagio, Cernobbio</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/itineraries-with-the-three-queens.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.com/tourism-in-lombardy/tourism-varese/church-varese">
+          <h4>Church Varese</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/church-varese.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/lake-vacation-lombardy/pescarenico-district-lecco" class="sitelinks__link--content row__column">
-        <h4>Pescarenico district lecco</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/pescarenico-district-lecco.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/lake-vacation-lombardy/canoeing" class="sitelinks__link--content row__column">
-        <h4>Canoeing</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/canoeing.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/lake-vacation-lombardy/towns-and-villages-near-lake-iseo" class="sitelinks__link--content row__column">
-        <h4>Towns and Villages near Lake Iseo</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/towns-and-villages-near-lake-iseo.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_en %}
+  {% include offer-page-content.html %}
 </section>

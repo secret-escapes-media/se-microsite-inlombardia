@@ -1,7 +1,8 @@
 ---
 layout: default_de
 language: de
-nav-order: 2
+page-order: 2
+nav: true
 title: Kunst & Kultur
 class: art-and-culture
 category: art-and-culture
@@ -9,42 +10,58 @@ banner-img: banner-art.jpg
 banner-pre-title:
 banner-post-title: für alle Sinne
 intro: >
-  <p class="lead">Theater, Museen, Architektur - für Kulturliebhaber und Kunstinteressierte hat die Lombardei das richtige Programm: Besuchen Sie die UNESCO Weltkulturerben, die Mailändischen Sammlungen, oder begeben Sie sich auf die Spuren von Leonardo da Vinci.</p>
-  <a class="btn" href="#">Read more</a>
+  <p>Theater, Museen, Architektur - für Kulturliebhaber und Kunstinteressierte hat die Lombardei das richtige Programm: Besuchen Sie die UNESCO Weltkulturerben, die Mailändischen Sammlungen, oder begeben Sie sich auf die Spuren von Leonardo da Vinci.</p>
 ---
 
-{% assign offers = site.data.offers_de %}
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/de/secret-escapes/kunst">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Mehr erfahren</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/kunst-und-kultur/denkm%C3%A4ler-lombardei">
+          <h4>Denkmäler Lombardei</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/monuments-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/kunst-und-kultur/kirchen-lombardei">
+          <h4>Kirchen Lombardei</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/churches-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/kunst-und-kultur/museen-lombardei">
+          <h4>Museen Lombardei</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/museums-in-lombardy.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
 
 
 <section>
-
-
-  {% include offer-page-content.html %}
-
-
-  <div class="row row--padding row--columns-4-4-4 sitelinks bp-hide--large">
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/kunst-und-kultur/denkm%C3%A4ler-lombardei" class="sitelinks__link--content row__column">
-        <h4>Denkmäler Lombardei</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/monuments-in-lombardy.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/kunst-und-kultur/unternehmungen-in-mantua" class="sitelinks__link--content row__column">
-        <h4>Unternehmungen in mantua</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/things-to-do-in-mantua.jpg" width="100%" />
-    </div>
-
-    <div class="sitelinks__link row__column">
-      <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/kunst-und-kultur/kirchen-lombardei" class="sitelinks__link--content row__column">
-        <h4>Kirchen Lombardei</h4>
-      </a>
-      <img src="{{ site.baseurl }}/img/content/churches-in-lombardy.jpg" width="100%" />
-    </div>
-
+  <div class="row align-center">
+    <h3>Offers</h3>
   </div>
-
+  {% assign offers = site.data.offers_de %}
+  {% include offer-page-content.html %}
 </section>

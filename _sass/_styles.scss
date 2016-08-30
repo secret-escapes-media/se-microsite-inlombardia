@@ -96,7 +96,7 @@
 
 // ---------- External site link sections ----------
 
-.sitelinks {}
+.sitelinks { margin-top: 0; }
 .sitelinks .sitelinks__link { display: block; position: relative; }
 .sitelinks .sitelinks__link img { float: left; }
 
@@ -107,10 +107,15 @@
   width: 100%; height: 100%;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px #000;
   .btn { position: absolute; bottom: 20px; }
   &:hover { text-decoration: none; }
   h4 { font-size: 1.5em;}
+}
+.sitelinks__link--large .sitelinks__link--content {
+  padding: 20px 30px;
+  h4 { font-size: 2.6em;}
+  .btn { bottom: 30px; }
 }
 
 
