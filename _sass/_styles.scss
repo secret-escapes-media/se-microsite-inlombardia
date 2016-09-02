@@ -97,7 +97,21 @@
 // ---------- External site link sections ----------
 
 .sitelinks { margin-top: 0; }
-.sitelinks .sitelinks__link { display: block; position: relative; }
+.sitelinks .sitelinks__link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  @include max-bp( large ) {
+    display: none;
+  }
+}
+.sitelinks .sitelinks__link.sitelinks__link--large {
+  @include max-bp( large ) {
+    display: block;
+    height: 200px;
+    h4 { font-size: 1.8em;}
+  }
+}
 .sitelinks .sitelinks__link img { float: left; }
 
 .sitelinks .sitelinks__link--content {
@@ -110,7 +124,9 @@
   text-shadow: 0 0 10px #000;
   .btn { position: absolute; bottom: 20px; }
   &:hover { text-decoration: none; }
-  h4 { font-size: 1.5em;}
+  h4 { font-size: 1.4em;}
+  h4.small { font-size: 1.25em;}
+  h4.xsmall { font-size: 1.1em;}
 }
 .sitelinks__link--large .sitelinks__link--content {
   padding: 20px 30px;
@@ -141,7 +157,7 @@
   * + & { margin-top: 1em; }
 }
 
-.btn__sm { padding: .2em 1.5em; border-radius: 3px; display: block; position: relative; overflow: hidden; }
+.btn__sm { padding: .2em 1.5em; border-radius: 40px; display: block; position: relative; overflow: hidden; }
 .btn__sm:after {
   content: url('../img/icon/arrow.png'); background-color: rgba(0,0,0,0.1);
   position: absolute; right: 0; top: 0; padding: 7px 10px 0px; }

@@ -6,6 +6,7 @@ nav: true
 title: Arte e Cultura
 class: art-and-culture
 category: art-and-culture
+ext-link: http://speciale.in-lombardia.it/it/secret-escapes/arte
 banner-img: banner-art.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
@@ -18,11 +19,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/it/secret-escapes/arte">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Continua a leggere</span>
       </a>
@@ -33,31 +34,31 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-culturale-lombardia/monumenti-in-lombardia">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Monumenti in Lombardia</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/monuments-in-lombardy.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-culturale-lombardia/chiese-in-lombardia">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Chiese in Lombardia</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/churches-in-lombardy.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-culturale-lombardia/musei-in-lombardia">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Musei in Lombardia</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/museums-in-lombardy.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-culturale-lombardia/mantova-capitale-cultura-2016">
-          <h4>Mantova capitale cultura 2016</h4>
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Siti Unesco in Lombardia</h4>
         </a>
-        <img src="{{ site.baseurl }}/img/content/mantua-culture-capital-2016.jpg" width="100%" />
+        <img src="{{ site.baseurl }}/img/content/unesco-in-lombardia.jpg" width="100%" />
       </div>
 
     </div></div>
@@ -68,7 +69,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Offerte</h3>
   </div>
   {% assign offers = site.data.offers_it %}
   {% include offer-page-content.html %}

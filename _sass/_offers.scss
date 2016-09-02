@@ -12,7 +12,7 @@
 }
 
 .offer__image {
-  border-top: 4px solid $charcoal;
+  border-top: 3px solid $charcoal;
   position: relative;
   overflow: hidden;
 }
@@ -24,13 +24,14 @@
 }
 
 .offer__content {
-  padding: ($margin / 2) $margin $margin;
+  padding: ($margin / 1.5) $margin;
   p + p { margin-top: .2em; }
 }
 
 .offer__content-title {
-  margin-bottom: 0em;
+  margin-bottom: 0.15em;
   font-size: 1.728em;
+  color: $charcoal;
 }
 
 .offer__content-subtitle {
@@ -41,8 +42,30 @@
   text-transform: uppercase;
 }
 
+.svg .offer__content-subtitle:before {
+    background-image: url(../img/icon/map-pin.svg);
+}
+.offer__content-subtitle:before {
+    content: "";
+    display: inline-block;
+    height: 1em;
+    width: .833em;
+    margin-right: .8em;
+    margin-bottom: .2em;
+    vertical-align: middle;
+    background-image: url(../img/icon/map-pin.png);
+    background-size: contain;
+}
+.offer__content-subtitle:before, .offer__image {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .offer__content-price {
   font-weight: bold;
+  font-size: 1.5em;
+  margin: 0 0.15em;
+  color: $red;
 }
 
 

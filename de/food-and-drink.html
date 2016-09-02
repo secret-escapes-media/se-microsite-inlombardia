@@ -6,6 +6,7 @@ nav: true
 title: Kulinarik
 class: food-and-drink
 category: food-and-drink
+ext-link: http://speciale.in-lombardia.it/de/secret-escapes/essen
 banner-img: banner-food.jpg
 banner-pre-title:
 banner-post-title: sinnlicher Genuss
@@ -17,11 +18,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/de/secret-escapes/essen">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Mehr erfahren</span>
       </a>
@@ -32,10 +33,31 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/essen-und-wein/weinverkostungen-und-weinguter-in-casteggio" class="sitelinks__link--content row__column">
-          <h4>Weinverkostungen und weinguter in casteggio</h4>
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4 class="xsmall">Weinverkostungen und weinguter in casteggio</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/wine-tastings-and-wineries-in-casteggio.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Der kaviar der lombardei</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/der-kaviar-der-lombardei.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Food und fashion sich treffen</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/food-und-fashion-sich-treffen.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Der kase der lombardei</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/der-kase-der-lombardei.jpg" width="100%" />
       </div>
 
     </div></div>
@@ -46,7 +68,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Angebote</h3>
   </div>
   {% assign offers = site.data.offers_de %}
   {% include offer-page-content.html %}

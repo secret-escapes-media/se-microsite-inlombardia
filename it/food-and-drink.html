@@ -6,6 +6,7 @@ nav: true
 title: Sapore
 class: food-and-drink
 category: food-and-drink
+ext-link: http://speciale.in-lombardia.it/it/secret-escapes/enogastronomia
 banner-img: banner-food.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
@@ -19,11 +20,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/it/secret-escapes/enogastronomia">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Continua a leggere</span>
       </a>
@@ -34,28 +35,28 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-enogastronomico-lombardia/cantine-a-casteggio" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Cantine a Casteggio</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/wine-tastings-and-wineries-in-casteggio.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-enogastronomico-lombardia/i-migliori-ristoranti-sul-lago-di-como" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>I migliori ristoranti sul lago di Como</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/the-best-restaurants-in-lake-como.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-enogastronomico-lombardia/guida-ai-prodotti-tipici-di-mantova">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Guida ai prodotti tipici di Mantova</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/mantua-local-products-guide.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/visitare-la-lombardia/turismo-enogastronomico-lombardia/strada-vino-e-sapori-lombardia">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Strada vino e sapori Lombardia</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/strada-vino-e-sapori-lombardia.jpg" width="100%" />
@@ -69,7 +70,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Offerte</h3>
   </div>
   {% assign offers = site.data.offers_it %}
   {% include offer-page-content.html %}

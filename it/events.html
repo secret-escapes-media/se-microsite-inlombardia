@@ -6,6 +6,7 @@ nav: true
 title: Eventi
 class: events
 category: events
+ext-link: http://speciale.in-lombardia.it/it/secret-escapes/eventi
 banner-img: banner-events.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
@@ -18,11 +19,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/it/secret-escapes/eventi">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Continua a leggere</span>
       </a>
@@ -33,28 +34,28 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/da-giotto-a-de-chirico">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Da Giotto a De Chirico</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/from-giotto-to-de-chirico.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/escher">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Escher</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/escher.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/leonardo3-il-mondo-di-leonardo">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Il Mondo di Leonardo</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/the-world-of-leonardo.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.it/eventi-in-lombardia/cremona-mondomusica">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Cremona Mondomusica</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/cremona-mondomusica.jpg" width="100%" />
@@ -68,7 +69,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Offerte</h3>
   </div>
   {% assign offers = site.data.offers_it %}
   {% include offer-page-content.html %}

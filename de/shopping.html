@@ -6,6 +6,7 @@ nav: true
 title: Shopping
 class: shopping
 category: shopping
+ext-link: http://speciale.in-lombardia.it/de/shopping-lombardei/
 banner-img: banner-shopping.jpg
 banner-pre-title:
 banner-post-title: faszinierende Verlockungen
@@ -17,11 +18,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/de/secret-escapes/shopping">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Mehr erfahren</span>
       </a>
@@ -32,28 +33,28 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/i-love-shopping-in-mailand" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>I love shopping in Mailand</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/i-love-shopping-in-milan.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/strike-chic-outlet-in-cremona" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Strike chic outlet in cremona</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/strike-chic-outlet-cremona.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/fashion-district-mantova-outlet" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Fashion district mantova outlet</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/fashion-district-mantova-outlet.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/shopping-tour/franciacorta-outlet-village" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Franciacorta Outlet Village</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/franciacorta-outlet-village.jpg" width="100%" />
@@ -67,7 +68,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Angebote</h3>
   </div>
   {% assign offers = site.data.offers_de %}
   {% include offer-page-content.html %}

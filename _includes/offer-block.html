@@ -8,8 +8,10 @@
     <h2 class="offer__content-title"><a id="title-link-{{ offer.class }}" href="{{ offer.url }}">{{ offer.title }}</a></h2>
     <h3 class="h4 offer__content-subtitle">{{ offer.location }}</h3>
     <p>{{ offer.description }}</p>
+    <p>{{ offer.price }} {{ offer.price-description }}</p>
     <a id="button-link-{{ offer.class }}" href="{{ offer.link }}" class="btn btn__sm">
-      From <span class="offer__content-price">£{{ offer.price }}</span> {{ offer.price-description }}
+      {{ offer.cta }}
     </a>
+    <p></p>
   </div>
 </div>

@@ -38,7 +38,7 @@ h1, .h1 {
   @include bp( medium ) {
     font-size: 4em;
   }
-  @include bp( large ) {
+  @include bp( xlarge ) {
     font-size: 6.063em;
   }
 }
@@ -57,9 +57,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  margin-bottom: .5em;
-  letter-spacing: 0.05em;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   font-size: 1.728em;
+  color: $charcoal;
   @include bp( medium ) {
     font-size: 2.074em;
   }
@@ -79,7 +81,7 @@ h4, .h4 {
 
 .page-content {
   p + *         { margin-top: 1em; }
-  p.lead        { font-size: 1.25em; line-height: 1.4; }
+  p.lead        { @include bp( medium ) { font-size: 1.25em; line-height: 1.4; } }
   li            { list-style-position: inside; }
   ul li         { list-style-type: disc; }
   ol li         { list-style-type: decimal; }

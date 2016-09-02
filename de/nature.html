@@ -6,6 +6,7 @@ nav: true
 title: Umgebung & Natur
 class: nature
 category: nature
+ext-link: http://speciale.in-lombardia.it/de/secret-escapes/natur
 banner-img: banner-nature.jpg
 banner-pre-title:
 banner-post-title: Rein in die Natur und tief durchatmen
@@ -17,11 +18,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/de/secret-escapes/natur ">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Mehr erfahren</span>
       </a>
@@ -32,24 +33,31 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.com/visiting-lombardy/natural-parks-lombardy" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Naturparks Lombardei</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/natural-parks-lombardy.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/aktiv-urlaub" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Aktiv Urlaub</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/sports-tourism-lombardy.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/naturparks-lombardei/nationalpark-stilfser-joch" class="sitelinks__link--content row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
           <h4>Nationalpark Stilfser Joch</h4>
         </a>
         <img src="{{ site.baseurl }}/img/content/stelvio-park.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>WWF-Oase Montorafano</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/wwf-oase-montorfano.jpg" width="100%" />
       </div>
 
     </div></div>
@@ -60,7 +68,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Angebote</h3>
   </div>
   {% assign offers = site.data.offers_de %}
   {% include offer-page-content.html %}

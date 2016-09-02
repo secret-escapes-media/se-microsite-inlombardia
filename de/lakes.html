@@ -6,6 +6,7 @@ nav: true
 title: Seen
 class: lakes
 category: lakes
+ext-link: http://speciale.in-lombardia.it/de/secret-escapes/seen
 banner-img: banner-lakes.jpg
 banner-pre-title:
 banner-post-title: Mit Blick aufs Wasser
@@ -17,11 +18,11 @@ intro: >
 
 <!-- EXTERNAL IMAGELINKS -->
 <section class="np">
-  <div class="row row--padding row--columns-6-6 sitelinks bp-hide--large">
+  <div class="row row--padding row--columns-6-6 sitelinks">
 
     <!-- Large link -->
     <div class="sitelinks__link sitelinks__link--large row__column">
-      <a target="_blank" class="sitelinks__link--content row__column" href="http://speciale.in-lombardia.it/de/secret-escapes/seen">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
         <h4>{{ page.title }}</h4>
         <span class="btn">Mehr erfahren</span>
       </a>
@@ -32,17 +33,31 @@ intro: >
     <div class="row__column"><div class="row__columns-6-6">
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.de/was-unternehmen-in-der-lombardei/urlaub-am-see">
-          <h4>Urlaub am See</h4>
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Iseosee</h4>
         </a>
-        <img src="{{ site.baseurl }}/img/content/lake-vacation-lombardy.jpg" width="100%" />
+        <img src="{{ site.baseurl }}/img/content/iseosee.jpg" width="100%" />
       </div>
 
       <div class="sitelinks__link row__column">
-        <a target="_blank" class="sitelinks__link--content row__column" href="http://www.in-lombardia.de/wohin-gehen-lombardei/varese/kirchen-varese">
-          <h4>Kirchen Varese</h4>
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Segeln</h4>
         </a>
-        <img src="{{ site.baseurl }}/img/content/church-varese.jpg" width="100%" />
+        <img src="{{ site.baseurl }}/img/content/segeln.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Kloster von Santa Caterina del Sasso</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/kloster-von-santa-caterina-del-sasso.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Gardasee</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/gardasee.jpg" width="100%" />
       </div>
 
     </div></div>
@@ -53,7 +68,7 @@ intro: >
 
 <section>
   <div class="row align-center">
-    <h3>Offers</h3>
+    <h3>Angebote</h3>
   </div>
   {% assign offers = site.data.offers_de %}
   {% include offer-page-content.html %}
