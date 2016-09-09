@@ -1,0 +1,77 @@
+---
+layout: default_it
+language: it
+page-order: 2
+nav: true
+title: Arte e Cultura
+class: art-and-culture
+category: art-and-culture
+ext-link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+banner-img: banner-art.jpg
+banner-pre-title:
+banner-post-title: In Lombardia
+summary: 
+intro: >
+  <p>La Lombardia è una delle mete preferite dagli appassionati di arte e cultura - e come meravigliarsene? Mantova (Capitale della cultura italiana), Bergamo (candidata a diventare un nuovo Sito UNESCO), Brescia con il Capitolium e le moltissime iniziative culturali, sono solo alcuni dei tesori di cui ti potrai innamorare visitando la regione. Tra musei, monumenti storici e gallerie d’eccezione, preparati ad una raffinata scoperta di eccellenze culturali e artistiche.</p>
+  <p>Non ultima Milano, una delle città più trendy d’Europa, che ha davvero tanto da offrire: imperdibile il Museo della Scienza e della Tecnologia, il nuovissimo MUDEC, la Pinacoteca di Brera e, per gli amanti del teatro, la programmazione di lirica e balletto al Teatro alla Scala.</p>
+---
+
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Continua a leggere</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Monumenti in Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/monuments-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Chiese in Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/churches-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Musei in Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/museums-in-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Siti Unesco in Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/unesco-in-lombardia.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="row align-center">
+    <h3>Offerte</h3>
+  </div>
+  {% assign offers = site.data.offers_it %}
+  {% include offer-page-content.html %}
+</section>

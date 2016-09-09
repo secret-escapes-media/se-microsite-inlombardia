@@ -1,0 +1,27 @@
+---
+layout: default_en
+language: en
+page-order: 8
+nav: true
+title: Offers
+class: offers
+category:
+banner-img: banner-default.jpg
+banner-pre-title:
+banner-post-title:
+summary: 
+intro: >
+  <p>Now we’ve tempted you with Lombardy’s delicious offerings, what are you waiting for?</p>
+  <p>The region of Lombardy is like a gorgeous crash course in all things Italian. Uncover the best of the best: the culture, the food, the breathtaking views, the art and design. There’s no better region to experience it all and you’ll be wowed at every turn. When you’ve taken in all of the style, history and culture that Milan has to offer, head into the hills and surround yourself with spectacular nature. Explore our guide in partnership with the Lombardia Tourist Board and once that’s well and truly whetted your appetite for Lombardy, check out these exclusive Secret Escapes offers.</p>
+---
+
+{% assign offers = site.data.offers_en | sort: 'priority' %}
+
+
+<section>
+
+
+  {% include offer-page-content.html %}
+
+
+</section>

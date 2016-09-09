@@ -4,6 +4,7 @@
   {% for offer in offers %}{% if offer.category == page.category %}
       {% include offer-block.html %}
   {% endif %}{% endfor %}
+
   <!-- separate loop to get all offers on offers.html -->
   {% if page.class == 'offers' %}{% for offer in offers %}
     {% include offer-block.html %}

@@ -1,0 +1,76 @@
+---
+layout: default_de
+language: de
+page-order: 5
+nav: true
+title: Umgebung & Natur
+class: nature
+category: nature
+ext-link: http://speciale.in-lombardia.it/de/secret-escapes/natur
+banner-img: banner-nature.jpg
+banner-pre-title:
+banner-post-title: Rein in die Natur und tief durchatmen
+summary: Grüne Hügel und malerische Orte - in der Lombardei gibt es viel zu entdecken
+intro: >
+  <p>Mit zehn UNESCO-Weltkulturerben bietet die Lombardei eine Vielzahl an Orten, die man besichtigen kann. Sabbioneta gilt beispielsweise als Umsetzungsbeispiel der idealen Stadt der Renaissance, was aber vielen nicht bekannt ist. Die Region bietet viel Grün: von verwunschenen Gärten, kristallklaren Seen und wunderbaren Höhen bekommen Sie hier garantiert nicht genug.</p>
+---
+
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Mehr erfahren</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Naturparks Lombardei</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/natural-parks-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Aktivurlaub</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/sports-tourism-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Nationalpark Stilfser Joch</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/stelvio-park.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>WWF-Oase Montorafano</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/wwf-oase-montorfano.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="row align-center">
+    <h3>Angebote</h3>
+  </div>
+  {% assign offers = site.data.offers_de %}
+  {% include offer-page-content.html %}
+</section>

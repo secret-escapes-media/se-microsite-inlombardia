@@ -2,131 +2,144 @@
 ### Art and Culture art-and-culture
 
   - title: NH Bergamo
+    priority: 10
     category: art-and-culture
     class: nh-bergamo
     location: Bergamo, Lombardia
     description: Un soggiorno moderno e accogliente nel cuore di Bergamo bassa, con colazione ed extra inclusi
-    price: A partire da <span class="offer__content-price">70€</span>
+    price: A partire da <span class="offer__content-price">69€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/hotel-nh-bergamo-bergamo-italy/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35369
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/nh-bergamo-bergamo-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: AtaHotel Varese
+    priority: 10
     category: art-and-culture
     class: ata-hotel-varese
     location: Varese, Lombardia
     description: Un accogliente hotel con vista sulle colline a due passi dal centro di Varese, con colazione inclusa
-    price: A partire da <span class="offer__content-price">86€</span>
+    price: A partire da <span class="offer__content-price">83€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/atahotel-varese-it-lombardy-italy/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35268
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/atahotel-varese-varese-lombardia-italia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Food and Drink food-and-drink
 
   - title: Hub Hotel
+    priority: 10
     category: food-and-drink
     class: hub-hotel
     location: Milano, Lombardia
     description: Un design hotel con centro spa alle porte di Milano, con colazione, drink di benvenuto, sconti al ristorante e tanti extra
-    price: A partire da <span class="offer__content-price">86€</span>
+    price: A partire da <span class="offer__content-price">73€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/the-hub-hotel-milan-italy-it/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35019
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/the-hub-hotel-milano-italia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Palazzo Arzaga
+    priority: 10
     category: food-and-drink
     class: palazzo-arzaga
     location: Lago di Garda, Lombardia
     description: Un'antica dimora del XV secolo convertita in hotel di lusso con spa - colazione e drink di benvenuto inclusi
     price: A partire da <span class="offer__content-price">129€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/palazzo-arzaga-lake-garda-italy-it/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35495
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/palazzo-arzaga-lago-di-garda-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Shopping shopping
 
-  - title: NH Milano Concordia
-    category: shopping
-    class: nh-milano-concordia
-    location: Milano, Lombardia
-    description: Un soggiorno con posizione strategica per visitare Milano senza stress, con colazione inclusa
-    price: A partire da <span class="offer__content-price">59€</span>
-    price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/nh-milano-concordia-milan-italy-eu/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35477
-
   - title: Devero Hotel & Spa
+    priority: 10
     category: shopping
     class: devero-hotel-spa
     location: Cavenago di Brianza, Lombardia
     description: Un soggiorno di benessere per partire alla volta di città, montagna o laghi, con colazione, ingresso alla spa e sconti
     price: A partire da <span class="offer__content-price">89€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/nh-milano-concordia-milan-italy-eu/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35477
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/devero-hotel-and-spa-cavenago-di-brianza-lombardia-italia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Nature nature
 
-  - title: Hotel Bagni Vecchi
+  - title: QC Terme Hotel Bagni Vecchi
+    priority: 10
     category: nature
     class: hotel-bagni-vecchi
     location: Valdidentro, Lombardia
     description: Terme, benessere e natura in un hotel incantato nell'Alta Valtellina - con colazione inclusa
     price: A partire da <span class="offer__content-price">185€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/bagni-vecchi-valdidentro-italy-it/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35507
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/hotel-bagni-vecchi-valdidentro-it-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: C-Hotel & SPA
+    priority: 10
     category: nature
     class: c-hotel-spa
     location: Cassago Brianza, Lombardia
     description: Un boutique hotel con spa immerso nella campagna brianzola, con colazione e tanti extra
     price: A partire da <span class="offer__content-price">109€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/c-hotel-and-spa-1a-lombardy-italy/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35341
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/c-hotel-and-spa-cassago-brianza-it-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Lakes lakes
 
   - title: Falkesteiner Apartments Lake Garda
+    priority: 10
     category: lakes
     class: falkesteiner-apartments-lake-garda
-    location: Monica del Garda, Lombardia
+    location: Moniga del Garda, Lombardia
     description: Un incantevole resort adagiato sulla sponda del Lago di Garda, con colazione
     price: A partire da <span class="offer__content-price">108€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/falkensteiner-apartments-lake-garda-moniga-del-garda-lombardia/sale
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/falkensteiner-apartments-lake-garda-moniga-del-garda-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Melià Campione
+    priority: 10
     category: lakes
     class: melia-campione
     location: Lago di Lugano, Lombardia
     description: Un lussuoso hotel dal design innovativo affacciato sul Lago di Lugano, con colazione ed extra
     price: A partire da <span class="offer__content-price">139€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/melia-campione-lombardy-italy-it/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35551
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/melia-campione-campione-ditalia-it-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+  - title: Castadiva Resort
+    priority: 10
+    category: lakes
+    class: castadiva-resort
+    location: Blevio, Lombardia
+    description: Resort cinque stelle lusso sul Lago di Como, con colazione, accesso alla spa e altri extra
+    price: A partire da <span class="offer__content-price">370€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/castadiva-resort-and-spa-blevio-lago-di-como-it/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Events events
 
-  - title: Hub Hotel
-    category: events
-    class: hub-hotel
-    location: Milano, Lombardia
-    description: Un design hotel con centro spa alle porte di Milano, con colazione, drink di benvenuto, sconti al ristorante e tanti extra
-    price: A partire da <span class="offer__content-price">86€</span>
-    price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/the-hub-hotel-milan-italy-it/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35019
-
   - title: NH Milano Concordia
+    priority: 10
     category: events
     class: nh-milano-concordia
     location: Milano, Lombardia
     description: Un soggiorno con posizione strategica per visitare Milano senza stress, con colazione inclusa
     price: A partire da <span class="offer__content-price">59€</span>
     price-description: per camera per notte
-    cta: View offer
-    link: https://it.secretescapes.com/nh-milano-concordia-milan-italy-eu/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&preview=false&actualSaleId=35477
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/nh-milano-concordia-sesto-san-giovanni-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+  - title: Hotel Windsor & San Siro
+    priority: 10
+    category: events
+    class: hotel-windsor-san-siro
+    location: Milano, Lombardia
+    description: Due biglietti per la partita Milan-Juventus & due notti in 4*
+    price: A partire da <span class="offer__content-price">205€</span>
+    price-description: soggiorno più biglietti
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/due-biglietti-per-la-partita-di-serie-a-milan-juventus-and-due-notti-in-hotel-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+

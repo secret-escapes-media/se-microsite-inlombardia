@@ -1,0 +1,76 @@
+---
+layout: default_de
+language: de
+page-order: 6
+nav: true
+title: Seen
+class: lakes
+category: lakes
+ext-link: http://speciale.in-lombardia.it/de/secret-escapes/seen
+banner-img: banner-lakes.jpg
+banner-pre-title:
+banner-post-title: Mit Blick aufs Wasser
+summary: Ruhe und Erholung - an den Seen der Region wird Natur zum Erlebnis
+intro: >
+  <p>Für diejenigen, die einfach Ruhe und Erholung suchen, die lieber in der Natur als in der Stadt verweilen, sind die zahlreichen Seen der Region zu empfehlen. Nicht nur der Comer See, an dem sich die Stars und Sternchen einfinden, auch kleinere unbekanntere Seen laden durch herrliche Wasserqualität zu zahlreichen Aktivitäten ein.</p>
+---
+
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Mehr erfahren</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Iseosee</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/iseosee.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Segeln</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/segeln.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Kloster von Santa Caterina del Sasso</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/kloster-von-santa-caterina-del-sasso.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Gardasee</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/gardasee.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="row align-center">
+    <h3>Angebote</h3>
+  </div>
+  {% assign offers = site.data.offers_de %}
+  {% include offer-page-content.html %}
+</section>

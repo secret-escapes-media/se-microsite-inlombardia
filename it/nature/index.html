@@ -1,0 +1,77 @@
+---
+layout: default_it
+language: it
+page-order: 5
+nav: true
+title: Natura
+class: nature
+category: nature
+ext-link: http://speciale.in-lombardia.it/it/secret-escapes/natura
+banner-img: banner-nature.jpg
+banner-pre-title:
+banner-post-title: In Lombardia
+summary: 
+intro: >
+  <p>Amante della natura, del relax, dell’aria pulita e dello sport? Non potevi capitare in posto migliore: la Lombardia è la meta perfetta anche per te.</p>
+  <p>La Lombardia è una delle regioni più verdi del paese. Ben 25 parchi naturali (hai sentito bene, 25!) oltre a giardini, oasi, laghi e montagne. Ideale per chi ama il verde, ma anche per gli sportivi di ogni genere: potrai dilettarti in sport acquatici, trekking ed escursioni, lunghe passeggiate nel verde, cicloturismo, sport invernali e molto altro.</p>
+---
+
+
+
+<!-- EXTERNAL IMAGELINKS -->
+<section class="np">
+  <div class="row row--padding row--columns-6-6 sitelinks">
+
+    <!-- Large link -->
+    <div class="sitelinks__link sitelinks__link--large row__column">
+      <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+        <h4>{{ page.title }}</h4>
+        <span class="btn">Continua a leggere</span>
+      </a>
+      <img src="{{ site.baseurl }}/img/content/link--{{page.class}}.jpg" width="100%" />
+    </div>
+
+    <!-- 2x2 grid -->
+    <div class="row__column"><div class="row__columns-6-6">
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Parchi Naturali in Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/natural-parks-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Turismo sportivo Lombardia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/sports-tourism-lombardy.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Itinerario attraverso la Valcuvia</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/lake-ceresio-to-lake-maggiore.jpg" width="100%" />
+      </div>
+
+      <div class="sitelinks__link row__column">
+        <a target="_blank" class="sitelinks__link--content row__column" href="{{page.ext-link}}">
+          <h4>Parco Nazionale dello Stelvio</h4>
+        </a>
+        <img src="{{ site.baseurl }}/img/content/stelvio-park.jpg" width="100%" />
+      </div>
+
+    </div></div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="row align-center">
+    <h3>Offerte</h3>
+  </div>
+  {% assign offers = site.data.offers_it %}
+  {% include offer-page-content.html %}
+</section>

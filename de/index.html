@@ -25,7 +25,11 @@ intro: >
       <span class="category__badge">{{ item.title }}</span>
       <span class="category__copy">
         <p class="lead">
-          {{ item.intro | strip_html | truncate: 250 }}
+          {% if item.summary %}
+            {{ item.summary }}
+          {% else %}
+            {{ item.intro | strip_html | truncate: 250 }}
+          {% endif %}
         </p>
         <span class="btn">Mehr erfahren...</span>
       </span>
