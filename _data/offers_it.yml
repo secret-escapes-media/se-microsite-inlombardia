@@ -12,17 +12,6 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/nh-bergamo-bergamo-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
-  - title: AtaHotel Varese
-    priority: 10
-    category: art-and-culture
-    class: ata-hotel-varese
-    location: Varese, Lombardia
-    description: Un accogliente hotel con vista sulle colline a due passi dal centro di Varese, con colazione inclusa
-    price: A partire da <span class="offer__content-price">83€</span>
-    price-description: per camera per notte
-    cta: Scopri l'offerta
-    link: https://it.secretescapes.com/atahotel-varese-varese-lombardia-italia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
 ### Food and Drink food-and-drink
 
   - title: Hub Hotel
@@ -86,16 +75,16 @@
 
 ### Lakes lakes
 
-  - title: Falkesteiner Apartments Lake Garda
+  - title: Château Monfort
     priority: 10
     category: lakes
-    class: falkesteiner-apartments-lake-garda
-    location: Moniga del Garda, Lombardia
-    description: Un incantevole resort adagiato sulla sponda del Lago di Garda, con colazione
-    price: A partire da <span class="offer__content-price">108€</span>
+    class: chateau-monfort
+    location: Milano, Lombardia
+    description: Soggiorno incantato nel cuore di Milano in fiabesco hotel a cinque stelle, con tanti extra
+    price: A partire da <span class="offer__content-price">£158</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/falkensteiner-apartments-lake-garda-moniga-del-garda-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://it.secretescapes.com/chateau-monfort-milano-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Melià Campione
     priority: 10
@@ -121,25 +110,26 @@
 
 ### Events events
 
-  - title: NH Milano Concordia
+  - title: Milan-Inter football match
     priority: 10
     category: events
-    class: nh-milano-concordia
+    class: milan-inter-football-match
     location: Milano, Lombardia
-    description: Un soggiorno con posizione strategica per visitare Milano senza stress, con colazione inclusa
-    price: A partire da <span class="offer__content-price">59€</span>
+    description: Goditi la partita Milan-Inter a San Siro, con soggiorno di due notti in quattro stelle a Milano
+    price: A partire da <span class="offer__content-price">194€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/nh-milano-concordia-sesto-san-giovanni-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://it.secretescapes.com/due-biglietti-per-la-partita-milan-inter-and-due-notti-in-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlomabrdia_it_20160919
 
-  - title: Hotel Windsor & San Siro
+### Other
+
+  - title: Klima Milan
     priority: 10
-    category: events
-    class: hotel-windsor-san-siro
+    category: other
+    class: klima-milan
     location: Milano, Lombardia
-    description: Due biglietti per la partita Milan-Juventus & due notti in 4*
-    price: A partire da <span class="offer__content-price">205€</span>
-    price-description: soggiorno più biglietti
+    description: Moderno hotel ecosostenibile alle porte di Milano, con colazione, drink all'arrivo ed extra
+    price: A partire da <span class="offer__content-price">69€</span>
+    price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/due-biglietti-per-la-partita-di-serie-a-milan-juventus-and-due-notti-in-hotel-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
+    link: https://it.secretescapes.com/klima-hotel-milano-fiere-it-milano/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlomabrdia_it_20160919

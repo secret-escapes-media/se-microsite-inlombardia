@@ -12,16 +12,16 @@
     cta: Angebot ansehen
     link: https://www.secretescapes.de/hotel-nh-bergamo-bergamo-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
-  - title: AtaHotel Varese
+  - title: Urlaub im Herzen der Lombardei
     priority: 10
     category: art-and-culture
-    class: ata-hotel-varese
-    location: Varese, Lombardia
-    description: Elegant in der malerischen Gartenstadt Varese am Lago Maggiore
-    price: Ab <span class="offer__content-price">83€</span>
+    class: urlaub-im-herzen-der-lombardei
+    location: Milano, Lombardia
+    description: Zentrale Lage nahe der historischen Altstadt – inkl. Frühstück & Extras
+    price: Ab <span class="offer__content-price">69€</span>
     price-description: pro Zimmer pro Nacht
     cta: Angebot ansehen
-    link: https://www.secretescapes.de/atahotel-varese-lombardei-italien1/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://www.secretescapes.de/hotel-nh-bergamo-bergamo-lombardei-italien/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlombardia_de_20160920
 
 ### Food and Drink food-and-drink
 
@@ -86,16 +86,16 @@
 
 ### Lakes lakes
 
-  - title: Falkensteiner Apartments Lake Garda
+  - title: Château Monfort
     priority: 10
     category: lakes
-    class: falkesteiner-apartments-lake-garda
-    location: Moniga del Garda, Lombardia
-    description: Großzügige Apartments und Pool am Gardasee
-    price: Ab <span class="offer__content-price">108€</span>
-    price-description: pro Apartment pro Nacht
+    class: chateau-monfort
+    location: Mailand, Lombardia
+    description: Stylisches 5*-Boutique-Hotel im Zentrum von Mailand – inkl. spätem Check-out
+    price: Ab <span class="offer__content-price">£158</span>
+    price-description: pro Zimmer pro Nacht
     cta: Angebot ansehen
-    link: https://www.secretescapes.de/falkensteiner-apartments-lake-garda-moniga-del-garda-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://www.secretescapes.de/chateau-monfort-mailand/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Melia Campione d'Italia
     priority: 10
@@ -121,14 +121,14 @@
 
 ### Events events
 
-  - title: Hub Hotel
+  - title: Genussurlaub am Gardasee
     priority: 10
-    category: food-and-drink
-    class: hub-hotel
+    category: events
+    class: genussurlaub-am-gardasee
     location: Milano, Lombardia
-    description: Modernes Hotel mit Spa vor den Toren Mailands
-    price: Ab <span class="offer__content-price">73€</span>
-    price-description: pro Zimmer pro Nacht
+    description: Idyllisches 5*-Hotel nahe Gardasee – inkl. Frühstück & Begrüßungsgetränk
+    price: Ab <span class="offer__content-price">145€</span>
+    price-description: pro Suite pro Nacht
     cta: Angebot ansehen
-    link: https://www.secretescapes.de/the-hub-hotel-in-mailand2-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://www.secretescapes.de/genussurlaub-am-gardasee-monastero-hotel-suite-and-wellness-soiano-del-lago-lombardei-italien/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlombardia_de_20160920
 

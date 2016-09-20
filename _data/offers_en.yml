@@ -12,17 +12,6 @@
     cta: View offer
     link: https://www.secretescapes.com/hotel-nh-bergamo-bergamo-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
-  - title: AtaHotel Varese
-    priority: 10
-    category: art-and-culture
-    class: ata-hotel-varese
-    location: Varese, Lombardia
-    description: A scenic stay in beautiful north Italy, close to alpine valleys, charming villages and beautiful lakes
-    price: From <span class="offer__content-price">£73</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/atahotel-varese-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
 ### Food and Drink food-and-drink
 
   - title: Palazzo Arzaga
@@ -86,16 +75,16 @@
 
 ### Lakes lakes
 
-  - title: Falkensteiner Apartments Lake Garda
+  - title: Château Monfort
     priority: 10
     category: lakes
-    class: falkesteiner-apartments-lake-garda
-    location: Moniga del Garda, Lombardia
-    description: High-end apartments set on Lake Garda's southwestern shores
-    price: From <span class="offer__content-price">£95</span>
-    price-description: per apartment per night
+    class: chateau-monfort
+    location: Milan, Lombardia
+    description: A five-star stay at a macaron-hued mansion in Milan, with spa access and a dining discount
+    price: From <span class="offer__content-price">£158</span>
+    price-description: per room per night
     cta: View offer
-    link: https://www.secretescapes.com/falkensteiner-apartments-lake-garda-moniga-del-garda-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://www.secretescapes.com/chateau-monfort-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Melia Campione d'Italia
     priority: 10
@@ -120,14 +109,3 @@
     link: https://www.secretescapes.com/castadiva-resort-and-spa-lake-como-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Events events
-
-  - title: Hub Hotel
-    priority: 10
-    category: events
-    class: hub-hotel
-    location: Milano, Lombardia
-    description: A sleek and contemporary base with a spa and panoramic city views
-    price: From <span class="offer__content-price">£64</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/the-hub-hotel-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
