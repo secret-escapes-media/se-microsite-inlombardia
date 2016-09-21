@@ -108,6 +108,17 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/castadiva-resort-and-spa-blevio-lago-di-como-it/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
+  - title: Hotel Monastero
+    priority: 10
+    category: lakes
+    class: hotel-monastero
+    location: Lago di Garda, Lombardia
+    description: Esclusivo hotel di pace e benessere sulla riviera gardesana, con colazione e drink inclusi
+    price: A partire da <span class="offer__content-price">145€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/hotel-monastero-lago-di-garda-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160919
+
 ### Events events
 
   - title: Milan-Inter football match
