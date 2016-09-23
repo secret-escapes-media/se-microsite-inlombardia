@@ -14,17 +14,6 @@
 
 ### Food and Drink food-and-drink
 
-  - title: Hub Hotel
-    priority: 10
-    category: food-and-drink
-    class: hub-hotel
-    location: Milano, Lombardia
-    description: Un design hotel con centro spa alle porte di Milano, con colazione, drink di benvenuto, sconti al ristorante e tanti extra
-    price: A partire da <span class="offer__content-price">73€</span>
-    price-description: per camera per notte
-    cta: Scopri l'offerta
-    link: https://it.secretescapes.com/the-hub-hotel-milano-italia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
   - title: Palazzo Arzaga
     priority: 10
     category: food-and-drink
