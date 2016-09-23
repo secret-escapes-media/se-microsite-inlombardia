@@ -49,18 +49,18 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/devero-hotel-and-spa-cavenago-di-brianza-lombardia-italia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
-### Nature nature
-
-  - title: QC Terme Hotel Bagni Vecchi
+  - title: Château Monfort
     priority: 10
-    category: nature
-    class: hotel-bagni-vecchi
-    location: Valdidentro, Lombardia
-    description: Terme, benessere e natura in un hotel incantato nell'Alta Valtellina - con colazione inclusa
-    price: A partire da <span class="offer__content-price">185€</span>
+    category: shopping
+    class: chateau-monfort
+    location: Milano, Lombardia
+    description: Soggiorno incantato nel cuore di Milano in fiabesco hotel a cinque stelle, con tanti extra
+    price: A partire da <span class="offer__content-price">£158</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/hotel-bagni-vecchi-valdidentro-it-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://it.secretescapes.com/chateau-monfort-milano-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+### Nature nature
 
   - title: C-Hotel & SPA
     priority: 10
@@ -74,17 +74,6 @@
     link: https://it.secretescapes.com/c-hotel-and-spa-cassago-brianza-it-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Lakes lakes
-
-  - title: Château Monfort
-    priority: 10
-    category: lakes
-    class: chateau-monfort
-    location: Milano, Lombardia
-    description: Soggiorno incantato nel cuore di Milano in fiabesco hotel a cinque stelle, con tanti extra
-    price: A partire da <span class="offer__content-price">£158</span>
-    price-description: per camera per notte
-    cta: Scopri l'offerta
-    link: https://it.secretescapes.com/chateau-monfort-milano-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Melià Campione
     priority: 10

@@ -51,17 +51,6 @@
 
 ### Nature nature
 
-  - title: QC Terme Hotel Bagni Vecchi
-    priority: 10
-    category: nature
-    class: hotel-bagni-vecchi
-    location: Valdidentro, Lombardia
-    description: Sublime views from a traditional spa hotel in the Italian Alps
-    price: From <span class="offer__content-price">£162</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/qc-terme-hotel-bagni-vecchi-bormio-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
   - title: C-Hotel & SPA
     priority: 10
     category: nature

@@ -60,18 +60,18 @@
     cta: Angebot ansehen
     link: https://www.secretescapes.de/devero-hotel-and-spa-cavenago-di-brianza-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
-### Nature nature
-
-  - title: QC Terme Bagni Vecchi
+  - title: Château Monfort
     priority: 10
-    category: nature
-    class: hotel-bagni-vecchi
-    location: Bormio, Lombardia
-    description: Wellnessparadies mit Panoramablick in den Alpen
-    price: Ab <span class="offer__content-price">185€</span>
+    category: shopping
+    class: chateau-monfort
+    location: Mailand, Lombardia
+    description: Stylisches 5*-Boutique-Hotel im Zentrum von Mailand – inkl. spätem Check-out
+    price: Ab <span class="offer__content-price">£158</span>
     price-description: pro Zimmer pro Nacht
     cta: Angebot ansehen
-    link: https://www.secretescapes.de/hotel-bagni-vecchi-valdidentro-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://www.secretescapes.de/chateau-monfort-mailand/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+### Nature nature
 
   - title: C-Hotel & SPA
     priority: 10
@@ -85,17 +85,6 @@
     link: https://www.secretescapes.de/c-hotel-and-spa-in-cassago-brianza-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Lakes lakes
-
-  - title: Château Monfort
-    priority: 10
-    category: lakes
-    class: chateau-monfort
-    location: Mailand, Lombardia
-    description: Stylisches 5*-Boutique-Hotel im Zentrum von Mailand – inkl. spätem Check-out
-    price: Ab <span class="offer__content-price">£158</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/chateau-monfort-mailand/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: Melia Campione d'Italia
     priority: 10
