@@ -23,6 +23,28 @@
     cta: Angebot ansehen
     link: https://www.secretescapes.de/hotel-nh-bergamo-bergamo-lombardei-italien/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlombardia_de_20160920
 
+  - title: NH Brescia
+    priority: 10
+    category: art-and-culture
+    class: nh-brescia
+    location: Brescia, Lombardia
+    description: Mitten im Geschehen von Brescia und nahe dem Gardasee – inkl. Frühstück & Extras
+    price: Ab <span class="offer__content-price">57€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/moderne-auszeit-in-kultureller-schatztruhe-brescia-lombardei-italien-hotel-nh-brescia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
+  - title: Albergo Colonne
+    priority: 10
+    category: art-and-culture
+    class: albergo-colonne
+    location: Varese, Lombardia
+    description: Ruhig gelegenes Hideaway am Sacro Monte di Varese – inkl. Frühstück & 6-Gänge-Michelin-Menü
+    price: Ab <span class="offer__content-price">199€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/sakrale-romantik-in-der-lombardei-varese-lombardei-italien-hotel-colonne/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
 ### Food and Drink food-and-drink
 
   - title: Palazzo Arzaga
@@ -66,10 +88,21 @@
     class: chateau-monfort
     location: Mailand, Lombardia
     description: Stylisches 5*-Boutique-Hotel im Zentrum von Mailand – inkl. spätem Check-out
-    price: Ab <span class="offer__content-price">£158</span>
+    price: Ab <span class="offer__content-price">180€</span>
     price-description: pro Zimmer pro Nacht
     cta: Angebot ansehen
     link: https://www.secretescapes.de/chateau-monfort-mailand/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+  - title: NH Milano Touring
+    priority: 10
+    category: shopping
+    class: nh-milano-touring
+    location: Mailand, Lombardia
+    description: Luxuriös & urban residieren in Mailand – inkl. Frühstück & Extras
+    price: Ab <span class="offer__content-price">85€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/in-italiens-fashionmetropole-trends-aufspueren-mailand-italien-nh-milano-touring/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Nature nature
 
@@ -119,5 +152,5 @@
     price: Ab <span class="offer__content-price">145€</span>
     price-description: pro Suite pro Nacht
     cta: Angebot ansehen
-    link: https://www.secretescapes.de/genussurlaub-am-gardasee-monastero-hotel-suite-and-wellness-soiano-del-lago-lombardei-italien/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlombardia_de_20160920
+    link: https://www.secretescapes.de/genussurlaub-am-gardasee-monastero-hotel-suite-and-wellness-soiano-del-lago-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 

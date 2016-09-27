@@ -12,6 +12,28 @@
     cta: View offer
     link: https://www.secretescapes.com/hotel-nh-bergamo-bergamo-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
+  - title: NH Brescia
+    priority: 10
+    category: art-and-culture
+    class: nh-brescia
+    location: Brescia, Lombardia
+    description: A modern hotel in picturesque Brescia with breakfast, a dining discount and welcome gift
+    price: From <span class="offer__content-price">£50</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/hotel-nh-brescia-brescia-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
+  - title: Hotel Colonne
+    priority: 10
+    category: art-and-culture
+    class: albergo-colonne
+    location: Varese, Lombardia
+    description: A gastronomic retreat within lush surrounds in north Italy, with breakfast and Michelin dining
+    price: From <span class="offer__content-price">£175</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/hotel-colonne-varese-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
 ### Food and Drink food-and-drink
 
   - title: Palazzo Arzaga
@@ -49,6 +71,17 @@
     cta: View offer
     link: https://www.secretescapes.com/devero-hotel-monza-and-brianza-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
+  - title: NH Milano Touring
+    priority: 10
+    category: shopping
+    class: nh-milano-touring
+    location: Milan, Lombardia
+    description: A sleek stay in the heart of Milan with breakfast, a welcome gift, late check-out and more
+    price: From <span class="offer__content-price">£75</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/nh-milano-touring-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
 ### Nature nature
 
   - title: C-Hotel & SPA
@@ -61,6 +94,17 @@
     price-description: per suite per night
     cta: View offer
     link: https://www.secretescapes.com/c-hotel-and-spa-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+  - title: AS Hotel Cambiago
+    priority: 10
+    category: nature
+    class: as-hotel-cambiago
+    location: Cambiago, Lombardia
+    description: A modern stay near Bergamo and Milan, with breakfast and use of the excellent spa facilities
+    price: From <span class="offer__content-price">£78</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/as-hotel-cambiago-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Lakes lakes
 
@@ -98,3 +142,7 @@
     link: https://www.secretescapes.com/castadiva-resort-and-spa-lake-como-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Events events
+
+
+
+### Other

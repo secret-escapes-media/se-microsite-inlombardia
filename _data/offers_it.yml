@@ -12,6 +12,28 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/nh-bergamo-bergamo-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
+  - title: NH Brescia
+    priority: 10
+    category: art-and-culture
+    class: nh-brescia
+    location: Brescia, Lombardia
+    description: Scopri le meraviglie nascoste di Brescia in un sofisticato quattro stelle, con colazione
+    price: A partire da <span class="offer__content-price">57€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/nh-brescia-brescia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
+  - title: Hotel Ristorante Colonne
+    priority: 10
+    category: art-and-culture
+    class: albergo-colonne
+    location: Varese, Lombardia
+    description: Soggiorno con colazione e un menu degustazione tra le colline lombarde
+    price: A partire da <span class="offer__content-price">199€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/hotel-ristorante-colonne-varese-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
 ### Food and Drink food-and-drink
 
   - title: Palazzo Arzaga
@@ -44,10 +66,21 @@
     class: chateau-monfort
     location: Milano, Lombardia
     description: Soggiorno incantato nel cuore di Milano in fiabesco hotel a cinque stelle, con tanti extra
-    price: A partire da <span class="offer__content-price">£158</span>
+    price: A partire da <span class="offer__content-price">180€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/chateau-monfort-milano-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+  - title: NH Milano Touring
+    priority: 10
+    category: shopping
+    class: nh-milano-touring
+    location: Milano, Lombardia
+    description: Elegante quattro stelle in pieno centro per visitare Milano senza stress- con colazione e omaggi
+    price: A partire da <span class="offer__content-price">85€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/nh-milano-touring-milano-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Nature nature
 
@@ -61,6 +94,17 @@
     price-description: per camera per notte
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/c-hotel-and-spa-cassago-brianza-it-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+
+  - title: AS Hotel Cambiago
+    priority: 10
+    category: nature
+    class: as-hotel-cambiago
+    location: Cambiago, Lombardia
+    description: Elegante spa hotel quattro stelle nella campagna milanese, con colazione e altri extra
+    price: A partire da <span class="offer__content-price">89€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/as-hotel-cambiago-cambiago-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=inlomabrdia_it_20160920
 
 ### Lakes lakes
 
@@ -108,7 +152,7 @@
     price: A partire da <span class="offer__content-price">194€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/due-biglietti-per-la-partita-milan-inter-and-due-notti-in-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlomabrdia_it_20160919
+    link: https://it.secretescapes.com/due-biglietti-per-la-partita-milan-inter-and-due-notti-in-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160919
 
 ### Other
 
@@ -121,4 +165,4 @@
     price: A partire da <span class="offer__content-price">69€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/klima-hotel-milano-fiere-it-milano/sale?utm_source=SE&utm_medium=hub&utm_campaign=inlomabrdia_it_20160919
+    link: https://it.secretescapes.com/klima-hotel-milano-fiere-it-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160919
