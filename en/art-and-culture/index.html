@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/en/secret-escapes/art
 banner-img: banner-art.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>Explore a world of creativity and inspiration.</p>
   <p>Italy is synonymous with world-class art. It’s a cultural melting pot and Lombardy is the ideal region to soak it all in. Whether you’re after design or history, or a little of both, there’s culture to be found all over Lombardy. Don’t just take our word for it - Mantua is Italy’s Capital of Culture and the entire city has been declared as one of 10 UNESCO World Heritage Sites in the region. Want to see it all? Start with Varese’s sacred mountains and rock carvings, then take a trip to the historic settlement of Crespi d'Adda before staring in awe at one of the most famous paintings in the world: Da Vinci’s Last Supper, which hangs in Milan.</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offers</h3>
-  </div>
-  {% assign offers = site.data.offers_en %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_en | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offers</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/en/secret-escapes/events
 banner-img: banner-events.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>There’s one thing for certain: you’ll never be bored in Lombardy.</p>
   <p>Milan Fashion Week is only the start of the annual events and celebrations in Lombardy. A holiday in the region isn’t just about lounging by a gorgeous lake (although don’t let us stop you), it’s the ideal destination for holiday-goers who can’t sit still for even a second. Sports fans arrive in their thousands for the Monza Grand Prix and design lovers can’t resist a purchase or two at the world-famous furniture fair. You’ll be spoilt for choice.</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offers</h3>
-  </div>
-  {% assign offers = site.data.offers_en %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_en | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offers</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

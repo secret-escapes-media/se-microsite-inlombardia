@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/it/secret-escapes/laghi
 banner-img: banner-lakes.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>Da George Clooney, a Brad Pitt, al bello di Twilight Robert Pattinson e non solo: sono davvero tante le celebrità che hanno scelto le sponde dei laghi lombardi come seconde case o luoghi di villeggiatura. E come biasimarli? La bellezza di questi luoghi è a dir poco mozzafiato.</p>
   <p>Ma non disperare: per farti sedurre dalla bellezza dei laghi non avrai bisogno di essere parte del jetset. Concediti un’avventura indimenticabile sul Lago di Como, rilassati con lunghe passeggiate tra gli affascinanti paesaggi del Lago di Garda, parti alla scoperta del Lago d’Iseo (protagonista dell’installazione temporanea The Floating Piers di Christo), oppure cimentati nelle tante attività sportive del Lago Maggiore. Promettiamo che sarà amore a prima vista (e tuo account Instagram non saprà come ringraziarti!). </p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offerte</h3>
-  </div>
-  {% assign offers = site.data.offers_it %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_it | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offerte</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

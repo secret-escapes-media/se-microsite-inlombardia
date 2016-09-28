@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/it/secret-escapes/natura
 banner-img: banner-nature.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>Amante della natura, del relax, dell’aria pulita e dello sport? Non potevi capitare in posto migliore: la Lombardia è la meta perfetta anche per te.</p>
   <p>La Lombardia è una delle regioni più verdi del paese. Ben 25 parchi naturali (hai sentito bene, 25!) oltre a giardini, oasi, laghi e montagne. Ideale per chi ama il verde, ma anche per gli sportivi di ogni genere: potrai dilettarti in sport acquatici, trekking ed escursioni, lunghe passeggiate nel verde, cicloturismo, sport invernali e molto altro.</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offerte</h3>
-  </div>
-  {% assign offers = site.data.offers_it %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_it | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offerte</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

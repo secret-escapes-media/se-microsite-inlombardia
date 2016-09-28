@@ -1,13 +1,7 @@
 <div class="row row--padding row--columns-6-6-gutters">
 
-  <!-- filtered loop for offer categories -->
-  {% for offer in offers %}{% if offer.category == page.category %}
-      {% include offer-block.html %}
-  {% endif %}{% endfor %}
-
-  <!-- separate loop to get all offers on offers.html -->
-  {% if page.class == 'offers' %}{% for offer in offers %}
+  {% for offer in offers %}
     {% include offer-block.html %}
-  {% endfor %}{% endif %}
+  {% endfor %}
 
 </div>

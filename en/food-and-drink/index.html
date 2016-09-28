@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/en/secret-escapes/food
 banner-img: banner-food.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>Hungry in Lombardy? Not possible. </p>
   <p>Tempting as it is to indulge in as much pizza and pasta as you can (we are in Italy, after all), rice dishes are very much the order of the day in Lombardy. Risotto is served in all manner of varieties, especially the rich Risotto alla Milanese, which is flavoured with rich saffron. Local delicacies include some famous dishes such as ossobuco and everyone’s favourite festive Italian treat, panettone. The chefs in Lombardy might be known for the classics but they still have a few surprises - there are six Michelin-starred restaurants in the region. And did you know that the most famous caviar in the world actually comes from Brescia? It goes very nicely with the sparkling wine that the region is famed for producing (Read: vineyards and wineries!)</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offers</h3>
-  </div>
-  {% assign offers = site.data.offers_en %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_en | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offers</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

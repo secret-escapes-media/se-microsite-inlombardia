@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/en/secret-escapes/lakes
 banner-img: banner-lakes.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>Think there’s only Lake Como to keep you entertained? Think again. </p>
   <p>George Clooney and his pals definitely helped to put Lake Como on the map. It’s every A-lister’s favourite Italian destination and with good reason - its lush landscape and Alpine backdrop is breathtaking. But Lombardy’s lakeside resorts have been giving the mediterranean beach holiday a run for its money for decades, thanks to the serene beauty of Lake Garda and Maggiore’s penchant for water sports. Lake Iseo is also getting in on the action after hosting world renowned artist Christo’s art installation The Floating Piers and its extra special gem Montisola - Europe’s largest lake island.</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offers</h3>
-  </div>
-  {% assign offers = site.data.offers_en %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_en | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offers</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

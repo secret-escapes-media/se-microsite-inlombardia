@@ -1,17 +1,6 @@
 
 ### Art and Culture art-and-culture
 
-  - title: NH Bergamo
-    priority: 10
-    category: art-and-culture
-    class: nh-bergamo
-    location: Bergamo, Lombardia
-    description: A modern stay in Italy's charming (and underrated) city of Bergamo
-    price: From <span class="offer__content-price">£60</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/hotel-nh-bergamo-bergamo-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
   - title: NH Brescia
     priority: 10
     category: art-and-culture
@@ -36,40 +25,7 @@
 
 ### Food and Drink food-and-drink
 
-  - title: Palazzo Arzaga
-    priority: 10
-    category: food-and-drink
-    class: palazzo-arzaga
-    location: Calvagese della Riviera, Lombardia
-    description: A historic five-star retreat with a golf course and spa, set in idyllic rural countryside
-    price: From <span class="offer__content-price">£113</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/palazzo-arzaga-lake-garda-italy-it/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
 ### Shopping shopping
-
-  - title: NH Milano Concordia
-    priority: 10
-    category: events
-    class: nh-milano-concordia
-    location: Sesto San Giovanni, Lombardia
-    description: A stylish four-star hotel on the outskirts of Milan - just 20 minutes from the centre
-    price: From <span class="offer__content-price">£52</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/nh-milano-concordia-milan-italy-eu/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
-  - title: Devero Hotel & Spa
-    priority: 10
-    category: shopping
-    class: devero-hotel-spa
-    location: Cavenago di Brianza, Lombardia
-    description: An elegant four-star hotel and spa set in the midst of Italy's Lakes region
-    price: From <span class="offer__content-price">£78</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/devero-hotel-monza-and-brianza-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: NH Milano Touring
     priority: 10
@@ -83,17 +39,6 @@
     link: https://www.secretescapes.com/nh-milano-touring-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Nature nature
-
-  - title: C-Hotel & SPA
-    priority: 10
-    category: nature
-    class: c-hotel-spa
-    location: Cassago Brianza, Lombardia
-    description: A cool and ultra-modern spa retreat near the beautiful lakes of Lombardy
-    price: From <span class="offer__content-price">£95</span>
-    price-description: per suite per night
-    cta: View offer
-    link: https://www.secretescapes.com/c-hotel-and-spa-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
   - title: AS Hotel Cambiago
     priority: 10
@@ -118,28 +63,6 @@
     price-description: per room per night
     cta: View offer
     link: https://www.secretescapes.com/chateau-monfort-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
-  - title: Melia Campione d'Italia
-    priority: 10
-    category: lakes
-    class: melia-campione
-    location: Campione d'Italia, Lombardia
-    description: Breathtaking views at an elegant five-star hotel next to Lake Lugano
-    price: From <span class="offer__content-price">£122</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/melia-campione-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
-  - title: Castadiva Resort
-    priority: 10
-    category: lakes
-    class: castadiva-resort
-    location: Blevio, Lombardia
-    description: A stunning five-star mansion hotel and spa on the edge of Lake Como
-    price: From <span class="offer__content-price">£324</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/castadiva-resort-and-spa-lake-como-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
 
 ### Events events
 

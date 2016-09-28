@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/it/secret-escapes/arte
 banner-img: banner-art.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>La Lombardia è una delle mete preferite dagli appassionati di arte e cultura - e come meravigliarsene? Mantova (Capitale della cultura italiana), Bergamo (candidata a diventare un nuovo Sito UNESCO), Brescia con il Capitolium e le moltissime iniziative culturali, sono solo alcuni dei tesori di cui ti potrai innamorare visitando la regione. Tra musei, monumenti storici e gallerie d’eccezione, preparati ad una raffinata scoperta di eccellenze culturali e artistiche.</p>
   <p>Non ultima Milano, una delle città più trendy d’Europa, che ha davvero tanto da offrire: imperdibile il Museo della Scienza e della Tecnologia, il nuovissimo MUDEC, la Pinacoteca di Brera e, per gli amanti del teatro, la programmazione di lirica e balletto al Teatro alla Scala.</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offerte</h3>
-  </div>
-  {% assign offers = site.data.offers_it %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_it | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offerte</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>

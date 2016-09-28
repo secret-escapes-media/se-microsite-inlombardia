@@ -10,7 +10,7 @@ ext-link: http://speciale.in-lombardia.it/it/secret-escapes/shopping
 banner-img: banner-shopping.jpg
 banner-pre-title:
 banner-post-title: In Lombardia
-summary: 
+summary:
 intro: >
   <p>Voglia di shopping sfrenato? Anche in questo caso, la Lombardia è la risposta giusta.</p>
   <p>A Milano, capitale assoluta della moda e culla delle migliori firme del Made in Italy potrai trovare tutto quello che cerchi. Dagli atelier e dalle botteghe artigianali di Brera e Tortona, alle glitteratissime boutique di Galleria Vittorio Emanuele II, di Via Torino e del Quadrilatero della Moda.</p>
@@ -69,9 +69,18 @@ intro: >
 
 
 <section>
-  <div class="row align-center">
-    <h3>Offerte</h3>
-  </div>
-  {% assign offers = site.data.offers_it %}
-  {% include offer-page-content.html %}
+
+  {% assign offers = site.data.offers_it | where: "category", page.class %}
+  {% assign offer_count = 0 %}
+  {% for offer in offers %}
+    {% assign offer_count = offer_count | plus: 1 %}
+  {% endfor %}
+
+  {% if offer_count > 0 %}
+    <div class="row align-center">
+      <h3>Offerte</h3>
+    </div>
+    {% include offer-page-content.html %}
+  {% endif %}
+
 </section>
