@@ -23,6 +23,17 @@
     cta: Angebot ansehen
     link: https://www.secretescapes.de/sakrale-romantik-in-der-lombardei-varese-lombardei-italien-hotel-colonne/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
+  - title: Casa Poli
+    priority: 10
+    category: art-and-culture
+    class: casa-poli
+    location: Lombardia
+    description: Facettenreiche Tage nahe von Verona – inkl. Frühstück, Leihrad & Extra
+    price: Ab <span class="offer__content-price">109€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/hotel-casa-poli-mantova-mantua-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Food and Drink food-and-drink
 
 ### Shopping shopping
@@ -59,6 +70,17 @@
     price-description: pro Zimmer pro Nacht
     cta: Angebot ansehen
     link: https://www.secretescapes.de/klima-hotel-milano-fiere-mailand-italien-eu/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160927
+
+  - title: Hilton Garden Inn Milan North
+    priority: 10
+    category: shopping
+    class: hilton-garden-inn-milan-north
+    location: Mailand, Lombardia
+    description: Urbanes Dolce Vita nahe der Mailänder Innenstadt – inkl. Frühstück, spätem Check-out & Extras
+    price: Ab <span class="offer__content-price">84€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/hilton-garden-inn-milan-north-mailand-lombardei-i-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
 ### Nature nature
 

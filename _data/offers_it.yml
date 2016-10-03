@@ -23,6 +23,17 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/hotel-ristorante-colonne-varese-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
+  - title: Casa Poli
+    priority: 10
+    category: art-and-culture
+    class: casa-poli
+    location: Lombardia
+    description: Estetica ricercata e comfort moderni in un hotel a quattro stelle nel centro di Mantova, con colazione, torta sbrisolona e noleggio bici incluse
+    price: A partire da <span class="offer__content-price">109€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/hotel-casa-poli-mantova-lombardia-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Food and Drink food-and-drink
 
 ### Shopping shopping
@@ -49,6 +60,17 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/nh-milano-touring-milano-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
+  - title: Hilton Garden Inn Milan North
+    priority: 10
+    category: shopping
+    class: hilton-garden-inn-milan-north
+    location: Milano, Lombardia
+    description: Raffinato quattro stelle appena fuori dal centro storico di Milano, con colazione inclusa
+    price: A partire da <span class="offer__content-price">84€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/hilton-garden-inn-milan-north-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Nature nature
 
   - title: AS Hotel Cambiago
@@ -64,18 +86,29 @@
 
 ### Lakes lakes
 
+  - title: As Limbiate
+    priority: 10
+    category: lakes
+    class: as-hotel-limbiate-fiera
+    location: Limbiate, Lombardia
+    description: Soggiorna in un moderno hotel alle porte di Milano, con colazione ed extra inclusi
+    price: A partire da <span class="offer__content-price">89€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/as-hotel-limbiate-fiera-limbiate-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Events events
 
-  - title: Milan-Inter football match
+  - title: 'Serie A: Inter - Fiorentina'
     priority: 10
     category: events
     class: milan-inter-football-match
     location: Milano, Lombardia
-    description: Biglietti per la partita Milan-Inter & due notti in 4*
-    price: A partire da <span class="offer__content-price">194€</span>
+    description: Appuntamento con la serie A per la partita Inter-Fiorentina e soggiorno quattro stelle
+    price: A partire da <span class="offer__content-price">274€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/due-biglietti-per-la-partita-milan-inter-and-due-notti-in-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160919
+    link: https://it.secretescapes.com/due-biglietti-per-la-partita-milan-inter-and-due-notti-in-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
 ### Other
 
