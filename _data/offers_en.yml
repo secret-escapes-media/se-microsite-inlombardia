@@ -60,6 +60,17 @@
     cta: View offer
     link: https://www.secretescapes.com/hilton-garden-inn-milan-north-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
+  - title: AS Hotel Limbiate Fiera
+    priority: 10
+    category: shopping
+    class: as-hotel-limbiate-fiera
+    location: Limbiate, Lombardia
+    description: A suite stay near hip Milan with breakfast, a welcome drink, dining discounts and more
+    price: From <span class="offer__content-price">£79</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/as-hotel-limbiate-fiera-near-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Nature nature
 
   - title: AS Hotel Cambiago
@@ -75,27 +86,16 @@
 
 ### Lakes lakes
 
-  - title: Château Monfort
+  - title: NH Pontevecchio
     priority: 10
     category: lakes
-    class: chateau-monfort
-    location: Milan, Lombardia
-    description: A five-star stay at a macaron-hued mansion in Milan, with spa access and a dining discount
-    price: From <span class="offer__content-price">£158</span>
+    class: nh-pontevecchio
+    location: Lecco, Lombardia
+    description: A four-star hotel set on the shores of Lake Como, with breakfast, a welcome drink and more
+    price: From <span class="offer__content-price">£60</span>
     price-description: per room per night
     cta: View offer
-    link: https://www.secretescapes.com/chateau-monfort-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
-  - title: AS Hotel Limbiate Fiera
-    priority: 10
-    category: lakes
-    class: as-hotel-limbiate-fiera
-    location: Limbiate, Lombardia
-    description: A suite stay near hip Milan with breakfast, a welcome drink, dining discounts and more
-    price: From <span class="offer__content-price">£79</span>
-    price-description: per room per night
-    cta: View offer
-    link: https://www.secretescapes.com/as-hotel-limbiate-fiera-near-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+    link: https://www.secretescapes.com/hotel-nh-lecco-pontevecchio-lake-como-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
 ### Events events
 

@@ -38,17 +38,6 @@
 
 ### Shopping shopping
 
-  - title: Château Monfort
-    priority: 10
-    category: shopping
-    class: chateau-monfort
-    location: Mailand, Lombardia
-    description: Stylisches 5*-Boutique-Hotel im Zentrum von Mailand – inkl. spätem Check-out
-    price: Ab <span class="offer__content-price">180€</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/chateau-monfort-mailand/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
-
   - title: NH Milano Touring
     priority: 10
     category: shopping
@@ -85,6 +74,17 @@
 ### Nature nature
 
 ### Lakes lakes
+
+  - title: NH Pontevecchio
+    priority: 10
+    category: lakes
+    class: nh-pontevecchio
+    location: Lecco, Lombardia
+    description: Zauberhafte Auszeit in der malerischen Lombardei – inkl. Frühstück & Extras
+    price: Ab <span class="offer__content-price">67€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/nh-lecco-pontevecchio-lecco-comer-see-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
 ### Events events
 

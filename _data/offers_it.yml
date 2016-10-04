@@ -12,22 +12,11 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/nh-brescia-brescia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
-  - title: Hotel Ristorante Colonne
-    priority: 10
-    category: art-and-culture
-    class: albergo-colonne
-    location: Varese, Lombardia
-    description: Soggiorno con colazione e un menu degustazione tra le colline lombarde
-    price: A partire da <span class="offer__content-price">199€</span>
-    price-description: per camera per notte
-    cta: Scopri l'offerta
-    link: https://it.secretescapes.com/hotel-ristorante-colonne-varese-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
-
   - title: Casa Poli
     priority: 10
     category: art-and-culture
     class: casa-poli
-    location: Lombardia
+    location: Mantova, Lombardia
     description: Estetica ricercata e comfort moderni in un hotel a quattro stelle nel centro di Mantova, con colazione, torta sbrisolona e noleggio bici incluse
     price: A partire da <span class="offer__content-price">109€</span>
     price-description: per camera per notte
@@ -36,18 +25,18 @@
 
 ### Food and Drink food-and-drink
 
-### Shopping shopping
-
-  - title: Château Monfort
+  - title: Hotel Ristorante Colonne
     priority: 10
-    category: shopping
-    class: chateau-monfort
-    location: Milano, Lombardia
-    description: Soggiorno incantato nel cuore di Milano in fiabesco hotel a cinque stelle, con tanti extra
-    price: A partire da <span class="offer__content-price">180€</span>
+    category: food-and-drink
+    class: albergo-colonne
+    location: Varese, Lombardia
+    description: Soggiorno con colazione e un menu degustazione tra le colline lombarde
+    price: A partire da <span class="offer__content-price">199€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/chateau-monfort-milano-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160906
+    link: https://it.secretescapes.com/hotel-ristorante-colonne-varese-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
+
+### Shopping shopping
 
   - title: NH Milano Touring
     priority: 10
@@ -71,6 +60,17 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/hilton-garden-inn-milan-north-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
+  - title: As Limbiate
+    priority: 10
+    category: shopping
+    class: as-hotel-limbiate-fiera
+    location: Limbiate, Lombardia
+    description: Soggiorna in un moderno hotel alle porte di Milano, con colazione ed extra inclusi
+    price: A partire da <span class="offer__content-price">89€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/as-hotel-limbiate-fiera-limbiate-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Nature nature
 
   - title: AS Hotel Cambiago
@@ -86,16 +86,16 @@
 
 ### Lakes lakes
 
-  - title: As Limbiate
+  - title: NH Pontevecchio
     priority: 10
     category: lakes
-    class: as-hotel-limbiate-fiera
-    location: Limbiate, Lombardia
-    description: Soggiorna in un moderno hotel alle porte di Milano, con colazione ed extra inclusi
-    price: A partire da <span class="offer__content-price">89€</span>
+    class: nh-pontevecchio
+    location: Lecco, Lombardia
+    description: Accogliente quattro stelle a due passi dal lago di Como, con colazione, drink, sconti e altri extra
+    price: A partire da <span class="offer__content-price">67€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/as-hotel-limbiate-fiera-limbiate-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+    link: https://it.secretescapes.com/hotel-nh-lecco-pontevecchio-lago-di-como/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
 ### Events events
 
@@ -105,10 +105,10 @@
     class: milan-inter-football-match
     location: Milano, Lombardia
     description: Appuntamento con la serie A per la partita Inter-Fiorentina e soggiorno quattro stelle
-    price: A partire da <span class="offer__content-price">274€</span>
+    price: A partire da <span class="offer__content-price">224€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/due-biglietti-per-la-partita-milan-inter-and-due-notti-in-4-star-hotel-windsor-and-san-siro/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+    link: https://it.secretescapes.com/biglietti-per-la-partita-inter-fiorentina-and-soggiorno-in-4-star-best-western-hotel-mozart-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
 ### Other
 
