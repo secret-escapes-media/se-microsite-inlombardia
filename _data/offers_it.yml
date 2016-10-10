@@ -12,6 +12,17 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/nh-brescia-brescia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
+  - title: Casa Poli
+    priority: 10
+    category: art-and-culture
+    class: casa-poli
+    location: Mantova, Lombardia
+    description: Estetica ricercata e comfort moderni in un hotel a quattro stelle nel centro di Mantova, con colazione, torta sbrisolona e noleggio bici incluse
+    price: A partire da <span class="offer__content-price">109€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/hotel-casa-poli-mantova-lombardia-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Food and Drink food-and-drink
 
   - title: Hotel Ristorante Colonne
@@ -59,6 +70,17 @@
     price-description: per camera per notte
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/palace-hotel-legnano-lombardy-italy-milan/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
+
+  - title: NH Milano Touring
+    priority: 10
+    category: shopping
+    class: nh-milano-touring
+    location: Milano, Lombardia
+    description: Elegante quattro stelle in pieno centro per visitare Milano senza stress- con colazione e omaggi
+    price: A partire da <span class="offer__content-price">85€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/nh-milano-touring-milano-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Nature nature
 
@@ -133,5 +155,17 @@
     link: https://it.secretescapes.com/due-biglietti-per-i-green-day-a-milano-con-soggiorno-4-star-best-western-hotel-mozart-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
 
 ### Other
+
+  - title: Klima Milan
+    priority: 10
+    category: other
+    class: klima-milan
+    location: Milano, Lombardia
+    description: Moderno hotel ecosostenibile alle porte di Milano, con colazione, drink all'arrivo ed extra
+    price: A partire da <span class="offer__content-price">69€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/klima-hotel-milano-fiere-it-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160919
+
 
 

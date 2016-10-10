@@ -23,6 +23,17 @@
     cta: View offer
     link: https://www.secretescapes.com/hotel-colonne-varese-lombardy-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
+  - title: Casa Poli
+    priority: 10
+    category: art-and-culture
+    class: casa-poli
+    location: Lombardia
+    description: A boutique bed and breakfast stay in a charming city in northern Italy’s Lombardy region
+    price: From <span class="offer__content-price">£97</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/hotel-casa-poli-mantua-lombardy-northern-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
 ### Food and Drink food-and-drink
 
 ### Shopping shopping
@@ -59,6 +70,17 @@
     price-description: per room per night
     cta: View offer
     link: https://www.secretescapes.com/palace-hotel-legnano-lombardy-italy-milan/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
+
+  - title: NH Milano Touring
+    priority: 10
+    category: shopping
+    class: nh-milano-touring
+    location: Milan, Lombardia
+    description: A sleek stay in the heart of Milan with breakfast, a welcome gift, late check-out and more
+    price: From <span class="offer__content-price">£75</span>
+    price-description: per room per night
+    cta: View offer
+    link: https://www.secretescapes.com/nh-milano-touring-milan-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Nature nature
 
