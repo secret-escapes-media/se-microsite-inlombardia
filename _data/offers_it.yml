@@ -12,17 +12,6 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/nh-brescia-brescia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
-  - title: Casa Poli
-    priority: 10
-    category: art-and-culture
-    class: casa-poli
-    location: Mantova, Lombardia
-    description: Estetica ricercata e comfort moderni in un hotel a quattro stelle nel centro di Mantova, con colazione, torta sbrisolona e noleggio bici incluse
-    price: A partire da <span class="offer__content-price">109€</span>
-    price-description: per camera per notte
-    cta: Scopri l'offerta
-    link: https://it.secretescapes.com/hotel-casa-poli-mantova-lombardia-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
-
 ### Food and Drink food-and-drink
 
   - title: Hotel Ristorante Colonne
@@ -37,17 +26,6 @@
     link: https://it.secretescapes.com/hotel-ristorante-colonne-varese-lombardia/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
 ### Shopping shopping
-
-  - title: NH Milano Touring
-    priority: 10
-    category: shopping
-    class: nh-milano-touring
-    location: Milano, Lombardia
-    description: Elegante quattro stelle in pieno centro per visitare Milano senza stress- con colazione e omaggi
-    price: A partire da <span class="offer__content-price">85€</span>
-    price-description: per camera per notte
-    cta: Scopri l'offerta
-    link: https://it.secretescapes.com/nh-milano-touring-milano-ita/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
   - title: Hilton Garden Inn Milan North
     priority: 10
@@ -70,6 +48,17 @@
     price-description: per camera per notte
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/as-hotel-limbiate-fiera-limbiate-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
+  - title: Palace Hotel Legnano
+    priority: 10
+    category: shopping
+    class: palace-hotel-legnano
+    location: Legnano, Lombardia
+    description: Soggiorno con colazione in un quattro stelle moderno, con possibilità di accesso spa
+    price: A partire da <span class="offer__content-price">64€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/palace-hotel-legnano-lombardy-italy-milan/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
 
 ### Nature nature
 
@@ -97,6 +86,28 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/hotel-nh-lecco-pontevecchio-lago-di-como/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
+  - title: Parco San Marco
+    priority: 10
+    category: lakes
+    class: parco-san-marco
+    location: Lake Lugano, Lombardia
+    description: Lussuoso resort sul Lago di Lugano in un parco naturale, con spa, colazione ed extra
+    price: A partire da <span class="offer__content-price">115€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/parco-san-marco-lifestyle-beach-resort-lake-lugano-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
+
+  - title: Park hotel
+    priority: 10
+    category: lakes
+    class: park-hotel
+    location: Lake Garda, Lombardia
+    description: Quattro stelle sul lago di Garda a due passi da Desenzano, con colazione e spumante
+    price: A partire da <span class="offer__content-price">99€</span>
+    price-description: per camera per notte
+    cta: Scopri l'offerta
+    link: https://it.secretescapes.com/park-hotel-desenzano-del-garda-italy/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
+
 ### Events events
 
   - title: 'Serie A: Inter - Fiorentina'
@@ -110,15 +121,17 @@
     cta: Scopri l'offerta
     link: https://it.secretescapes.com/biglietti-per-la-partita-inter-fiorentina-and-soggiorno-in-4-star-best-western-hotel-mozart-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
-### Other
-
-  - title: Klima Milan
+  - title: Concert Green Day
     priority: 10
-    category: other
-    class: klima-milan
+    category: events
+    class: concert-green-day
     location: Milano, Lombardia
-    description: Moderno hotel ecosostenibile alle porte di Milano, con colazione, drink all'arrivo ed extra
-    price: A partire da <span class="offer__content-price">69€</span>
+    description: Regalati una notte punk con il concerto dei Green Day al Forum di Assago, con soggiorno incluso
+    price: A partire da <span class="offer__content-price">388€</span>
     price-description: per camera per notte
     cta: Scopri l'offerta
-    link: https://it.secretescapes.com/klima-hotel-milano-fiere-it-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160919
+    link: https://it.secretescapes.com/due-biglietti-per-i-green-day-a-milano-con-soggiorno-4-star-best-western-hotel-mozart-milano/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
+
+### Other
+
+

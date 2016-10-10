@@ -23,42 +23,9 @@
     cta: Angebot ansehen
     link: https://www.secretescapes.de/sakrale-romantik-in-der-lombardei-varese-lombardei-italien-hotel-colonne/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
 
-  - title: Casa Poli
-    priority: 10
-    category: art-and-culture
-    class: casa-poli
-    location: Lombardia
-    description: Facettenreiche Tage nahe von Verona – inkl. Frühstück, Leihrad & Extra
-    price: Ab <span class="offer__content-price">109€</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/hotel-casa-poli-mantova-mantua-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
-
 ### Food and Drink food-and-drink
 
 ### Shopping shopping
-
-  - title: NH Milano Touring
-    priority: 10
-    category: shopping
-    class: nh-milano-touring
-    location: Mailand, Lombardia
-    description: Luxuriös & urban residieren in Mailand – inkl. Frühstück & Extras
-    price: Ab <span class="offer__content-price">85€</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/in-italiens-fashionmetropole-trends-aufspueren-mailand-italien-nh-milano-touring/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
-
-  - title: Klima Hotel Milano Fiere
-    priority: 10
-    category: shopping
-    class: klima-milan
-    location: Mailand, Lombardia
-    description: Modernes Öko-Hotel am Rand von Mailand – inkl. Frühstück, Begrüßungsgetränk & Extras
-    price: Ab <span class="offer__content-price">69€</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/klima-hotel-milano-fiere-mailand-italien-eu/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160927
 
   - title: Hilton Garden Inn Milan North
     priority: 10
@@ -70,6 +37,17 @@
     price-description: pro Zimmer pro Nacht
     cta: Angebot ansehen
     link: https://www.secretescapes.de/hilton-garden-inn-milan-north-mailand-lombardei-i-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
+
+  - title: Palace Hotel Legnano
+    priority: 10
+    category: shopping
+    class: palace-hotel-legnano
+    location: Legnano, Lombardia
+    description: Mediterranes Lebensgefühl in der schönen Lombardei – inkl. Frühstück & Extras
+    price: Ab <span class="offer__content-price">64€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/sonnige-zeiten-im-spa-hotel-palace-hotel-legnano-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
 
 ### Nature nature
 
@@ -86,5 +64,19 @@
     cta: Angebot ansehen
     link: https://www.secretescapes.de/nh-lecco-pontevecchio-lecco-comer-see-lombardei-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161003
 
+  - title: Parco San Marco
+    priority: 10
+    category: lakes
+    class: parco-san-marco
+    location: Luganer See, Lombardia
+    description: Stilvolles Resort inmitten einer grünen Oase – inkl. Frühstück, Spa-Zugang & Extras
+    price: Ab <span class="offer__content-price">115€</span>
+    price-description: pro Zimmer pro Nacht
+    cta: Angebot ansehen
+    link: https://www.secretescapes.de/la-dolce-vita-am-luganer-see-parco-san-marco-lifestyle-beach-resort-luganer-see-italien/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20161010
+
 ### Events events
 
+
+
+### Other
