@@ -38,28 +38,6 @@
 
 ### Shopping shopping
 
-  - title: NH Milano Touring
-    priority: 10
-    category: shopping
-    class: nh-milano-touring
-    location: Mailand, Lombardia
-    description: Luxuriös & urban residieren in Mailand – inkl. Frühstück & Extras
-    price: Ab <span class="offer__content-price">85€</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/in-italiens-fashionmetropole-trends-aufspueren-mailand-italien-nh-milano-touring/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160920
-
-  - title: Klima Hotel Milano Fiere
-    priority: 10
-    category: shopping
-    class: klima-milan
-    location: Mailand, Lombardia
-    description: Modernes Öko-Hotel am Rand von Mailand – inkl. Frühstück, Begrüßungsgetränk & Extras
-    price: Ab <span class="offer__content-price">69€</span>
-    price-description: pro Zimmer pro Nacht
-    cta: Angebot ansehen
-    link: https://www.secretescapes.de/klima-hotel-milano-fiere-mailand-italien-eu/sale?utm_source=SE&utm_medium=hub_offer&utm_campaign=InLombardia_20160927
-
   - title: Hilton Garden Inn Milan North
     priority: 10
     category: shopping
